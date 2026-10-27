@@ -4,6 +4,7 @@ import { FaqAccordion } from "@/components/ui/accordion";
 import { HeroHeading } from "@/components/hero-heading";
 import { HeroVisual } from "@/components/hero-visual";
 import { JsonLd } from "@/components/seo/json-ld";
+import { Reveal } from "@/components/reveal";
 import { SegmentSelector } from "@/components/segment-selector";
 import { TrackedLink } from "@/components/tracked-link";
 import { caseStudies } from "@/content/case-studies";
@@ -112,6 +113,7 @@ export default function HomePage() {
         </ul>
       </section>
 
+      <Reveal>
       <section className="mx-auto max-w-6xl px-4 py-14">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <h2 className="font-serif text-4xl">Why now</h2>
@@ -135,6 +137,7 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+      </Reveal>
 
       <section className="mx-auto max-w-6xl px-4 py-6">
         <h2 className="font-serif text-4xl">I am a…</h2>
