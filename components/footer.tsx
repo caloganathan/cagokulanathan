@@ -54,8 +54,8 @@ export function Footer() {
         </div>
         <p className="mx-auto mt-3 max-w-6xl">
           Designed with <span role="img" aria-label="love">❤️</span> by{" "}
-          <a href="https://straitspartners.in" target="_blank" rel="noopener" className="text-[var(--link)] underline-offset-4 hover:underline">
-            Straits Partners (straitspartners.in)
+          <a href="https://straitspartners.in" target="_blank" rel="noopener" className="text-[var(--link)] underline underline-offset-4">
+            Straits Partners
           </a>
         </p>
       </div>
