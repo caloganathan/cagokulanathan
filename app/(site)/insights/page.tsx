@@ -14,7 +14,7 @@ export default function InsightsPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Insights", path: "/insights" }]} />
-      <h1 className="mt-4 font-serif text-5xl">Insights</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">Insights</h1>
       <p className="measure mt-4 text-[var(--muted)]">
         Eight essays and four shorter briefings. Regulatory pieces carry a last-reviewed date and a link to the government source.
       </p>
@@ -25,7 +25,7 @@ export default function InsightsPage() {
               {insight.dateLabel}
               {insight.full ? "" : " · Briefing"}
             </p>
-            <h2 className="mt-2 font-serif text-3xl">
+            <h2 className="mt-2 font-serif text-xl md:text-2xl">
               <Link href={`/insights/${insight.slug}`}>{insight.title}</Link>
             </h2>
             <p className="mt-2 text-[var(--muted)]">{insight.dek}</p>

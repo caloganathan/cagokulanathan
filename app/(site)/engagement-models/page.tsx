@@ -12,11 +12,11 @@ export const metadata = pageMetadata({
 
 export default function EngagementPage() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
+    <div className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Engagement models", path: "/engagement-models" }]} />
-      <h1 className="mt-4 font-serif text-5xl">How to work with us</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">How to work with us</h1>
       <p className="mt-4 text-[var(--muted)]">
-        Fees are in INR when they are quoted. We are not publishing a rupee figure until it is confirmed. You speak to the founder on the first call.
+        Fees are quoted in INR after the first call, once the scope is clear. You speak to the founder on the first call.
       </p>
       <div className="mt-6 overflow-x-auto">
         <table className="w-full min-w-[36rem] border-collapse text-left text-sm">

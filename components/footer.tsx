@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="border-t border-[var(--line)] bg-[var(--surface)]">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-4">
         <div className="md:col-span-2">
-          <p className="font-serif text-3xl">{site.brandName}</p>
+          <p className="font-serif text-xl md:text-2xl">{site.brandName}</p>
           <p className="mt-2 text-[var(--muted)]">
             {site.founder}, {site.title}. Based in {site.city}, {site.state}. A service-area practice across India.
           </p>
@@ -47,12 +47,12 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-[var(--line)] px-4 py-4 text-sm text-[var(--muted)] md:pb-20">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 md:flex-row md:justify-between">
+      <div className="border-t border-[var(--line)] py-4 text-sm text-[var(--muted)] md:pb-20">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 md:flex-row md:justify-between">
           <p>Information on this site is general technical and regulatory guidance, not legal advice.</p>
           <p>Regulatory content last reviewed {site.lastReviewedRegulatory}.</p>
         </div>
-        <p className="mx-auto mt-3 max-w-6xl">
+        <p className="mx-auto mt-3 max-w-6xl px-4">
           Designed with <span role="img" aria-label="love">❤️</span> by{" "}
           <a href="https://straitspartners.in" target="_blank" rel="noopener" className="text-[var(--link)] underline underline-offset-4">
             Straits Partners

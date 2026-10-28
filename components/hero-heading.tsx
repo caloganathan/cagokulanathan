@@ -14,7 +14,7 @@ export function HeroHeading() {
     () => "v1" as const,
   );
   return (
-    <h1 className="mt-3 font-serif text-[clamp(2.4rem,1.4rem+3vw,4.4rem)] leading-[1.05]">
+    <h1 className="mt-3 font-serif text-[clamp(1.9rem,1.2rem+2.2vw,3rem)] leading-[1.1]">
       {variants[variant]}
     </h1>
   );

@@ -124,7 +124,7 @@ export function BatchTool() {
       <button className="min-h-11 rounded-full bg-[var(--forest)] px-4 font-semibold text-white">See the risk</button>
       {result ? (
         <div className="rounded-3xl bg-[var(--mist)] p-5">
-          <p className="font-serif text-3xl">{result.level} risk</p>
+          <p className="font-serif text-xl md:text-2xl">{result.level} risk</p>
           <p className="text-sm text-[var(--muted)]">Score {result.score}. Nothing is stored unless you send it.</p>
           <ol className="mt-3 list-decimal space-y-2 pl-5">
             {result.actions.map((action) => (

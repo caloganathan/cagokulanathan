@@ -271,7 +271,7 @@ export const answers: AnswerEntry[] = [
     metaTitle: "What a biologicals consultant costs",
     metaDescription:
       "The diagnostic call is free. Other work is quoted after it. Rupee figures are not published until confirmed.",
-    lead: "A 30-minute bottleneck diagnostic call is free. A Plant Health Check is one to two days on site with a written report. A Regulatory Readiness Assessment is a gap analysis and a data roadmap. A project is a fixed-scope dossier, scale-up or diligence, quoted after the diagnostic. A technical retainer is monthly advisory hours, also quoted after the call. We are not publishing a rupee anchor until those figures are confirmed. Fees exclude GST, travel and third-party laboratory or trial costs.",
+    lead: "A 30-minute bottleneck diagnostic call is free. A Plant Health Check is one to two days on site with a written report. A Regulatory Readiness Assessment is a gap analysis and a data roadmap. A project is a fixed-scope dossier, scale-up or diligence, quoted after the diagnostic. A technical retainer is monthly advisory hours, also quoted after the call. Fees are quoted in INR once the scope is clear. Fees exclude GST, travel and third-party laboratory or trial costs.",
     paragraphs: [
       "Anyone who quotes a registration 'package price' that includes a guaranteed certificate is selling something we will not sell. The authority decides.",
       "You speak to the scientists who will do the work. There is no sales team. An NDA is available before you share tank data or a strain.",
@@ -355,7 +355,7 @@ export const answers: AnswerEntry[] = [
     metaTitle: "Korean agri-biotech firms entering India",
     metaDescription:
       "A Korean registration does not authorise an Indian sale. Validate the technology and map the Indian file first.",
-    lead: "Start with the technical question, not the distributor. Confirm the technology is real, decide what must be repeated in India, and map the regime: Schedule VI, CIB&RC, the biofertiliser specification, or the Coastal Aquaculture Authority. A Korean approval does not authorise an Indian sale. We scout, validate and support the technical side of a licence. Your counsel writes the contract. We do not name a Korean government employer on this site until that wording is confirmed.",
+    lead: "Start with the technical question, not the distributor. Confirm the technology is real, decide what must be repeated in India, and map the regime: Schedule VI, CIB&RC, the biofertiliser specification, or the Coastal Aquaculture Authority. A Korean approval does not authorise an Indian sale. We scout, validate and support the technical side of a licence. Your counsel writes the contract.",
     paragraphs: [
       "The approved example we can talk about is our founder's microbial feed additive against WSSV and AHPND in L. vannamei, field-validated and licensed to industry. Your asset needs its own file.",
       "If the Indian partner's 'registration' is a provisional biostimulant certificate, treat it as invalid from 17 Jun 2025 and reprice the deal.",

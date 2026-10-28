@@ -19,7 +19,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--paper)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
         <Link href="/" className="no-underline">
-          <span className="block font-serif text-2xl leading-none">{site.brandName}</span>
+          <span className="block font-serif text-xl leading-none">{site.brandName}</span>
           <span className="block text-xs text-[var(--muted)]">Agri-biologicals · Coimbatore</span>
         </Link>
         <nav className="hidden items-center gap-5 text-sm lg:flex" aria-label="Primary">
@@ -86,7 +86,7 @@ export function Header() {
       {open ? (
         <div className="fixed inset-0 z-50 bg-[var(--paper)] lg:hidden">
           <div className="flex items-center justify-between px-4 py-3">
-            <span className="font-serif text-2xl">{site.brandName}</span>
+            <span className="font-serif text-lg md:text-xl">{site.brandName}</span>
             <button className="inline-flex size-11 items-center justify-center" aria-label="Close menu" onClick={() => setOpen(false)}>
               <X />
             </button>

@@ -31,7 +31,7 @@ export default function CareersPage() {
         <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Work with us", path: "/careers" }]} />
         <div className="mt-6 max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--leaf)]">Work with us · Partner in agri growth</p>
-          <h1 className="mt-3 font-serif text-[clamp(2.4rem,1.4rem+3vw,4.2rem)] leading-[1.05]">
+          <h1 className="mt-3 font-serif text-[clamp(1.9rem,1.2rem+2.2vw,3rem)] leading-[1.1]">
             Love soil, microbes and honest farming? Grow with us.
           </h1>
           <p className="mt-5 text-lg">
@@ -50,13 +50,13 @@ export default function CareersPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-14" aria-labelledby="who">
-        <h2 id="who" className="font-serif text-4xl">
+        <h2 id="who" className="font-serif text-2xl md:text-3xl">
           Who we are looking for
         </h2>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {careerTracks.map((item) => (
             <article key={item.id} className="flex flex-col rounded-3xl border border-[var(--line)] bg-[var(--surface)] p-6">
-              <h3 className="font-serif text-2xl">{item.label}</h3>
+              <h3 className="font-serif text-lg md:text-xl">{item.label}</h3>
               <p className="mt-1 text-sm font-semibold text-[var(--leaf)]">{item.who}</p>
               <p className="mt-3 flex-1 text-[var(--muted)]">{item.text}</p>
               <Link className="mt-4 font-semibold text-[var(--link)]" href={`/careers?track=${item.id}#apply`}>
@@ -68,13 +68,13 @@ export default function CareersPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 pb-14" aria-labelledby="values">
-        <h2 id="values" className="font-serif text-4xl">
+        <h2 id="values" className="font-serif text-2xl md:text-3xl">
           What we value
         </h2>
         <ul className="mt-6 grid gap-4 md:grid-cols-4">
           {careerValues.map(([title, text]) => (
             <li key={title} className="rounded-3xl bg-[var(--mist)] p-5">
-              <h3 className="font-serif text-2xl">{title}</h3>
+              <h3 className="font-serif text-lg md:text-xl">{title}</h3>
               <p className="mt-2 text-sm text-[var(--muted)]">{text}</p>
             </li>
           ))}
@@ -84,7 +84,7 @@ export default function CareersPage() {
       <section id="apply" className="scroll-mt-20 bg-[var(--forest)] px-4 py-14 text-[#f7f5ef]" aria-labelledby="apply-h">
         <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
-            <h2 id="apply-h" className="font-serif text-4xl leading-tight">
+            <h2 id="apply-h" className="font-serif text-2xl md:text-3xl leading-tight">
               Tell us who you are.
             </h2>
             <p className="mt-4 text-[#d7e6de]">
@@ -111,8 +111,8 @@ export default function CareersPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14" aria-labelledby="faq">
-        <h2 id="faq" className="font-serif text-4xl">
+      <section className="mx-auto max-w-6xl px-4 py-14 [&>*]:max-w-3xl" aria-labelledby="faq">
+        <h2 id="faq" className="font-serif text-2xl md:text-3xl">
           Questions before you apply
         </h2>
         <div className="mt-4">

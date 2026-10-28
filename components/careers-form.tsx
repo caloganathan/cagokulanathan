@@ -25,7 +25,7 @@ export function CareersForm() {
   if (status === "sent") {
     return (
       <div role="status" className="rounded-3xl bg-[var(--forest)] p-8 text-[#f7f5ef]">
-        <p className="font-serif text-3xl">Thank you — we have it.</p>
+        <p className="font-serif text-xl md:text-2xl">Thank you — we have it.</p>
         <p className="mt-3 text-[#d7e6de]">{message}</p>
       </div>
     );

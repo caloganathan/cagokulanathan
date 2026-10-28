@@ -24,14 +24,14 @@ export default async function ResourcePage({ params }: { params: Promise<{ slug:
   const magnet = leadMagnets[slug as LeadMagnetId];
   if (!magnet) notFound();
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
+    <div className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },
           { name: magnet.title, path: `/resources/${slug}` },
         ]}
       />
-      <h1 className="mt-4 font-serif text-5xl">{magnet.title}</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">{magnet.title}</h1>
       <p className="mt-4 text-[var(--muted)]">
         Leave a work email and consent. The PDF downloads in the browser. If mail delivery is configured, a copy is emailed as well.
       </p>

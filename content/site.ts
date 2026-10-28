@@ -32,6 +32,7 @@ export const site = {
   ],
   whatsappE164: process.env.NEXT_PUBLIC_WHATSAPP_E164 ?? "",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
+  mapEmbedUrl: process.env.NEXT_PUBLIC_MAP_EMBED_URL ?? "",
   calendlyUrl: process.env.NEXT_PUBLIC_CALENDLY_URL ?? "",
   linkedin: "",
   orcid: "",

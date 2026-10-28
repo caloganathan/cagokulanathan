@@ -12,9 +12,9 @@ export const metadata = pageMetadata({
 
 export default function AnswersPage() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
+    <div className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Answers", path: "/answers" }]} />
-      <h1 className="mt-4 font-serif text-5xl">Answers</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">Answers</h1>
       <p className="mt-4 text-[var(--muted)]">
         Twenty-five questions, each on its own URL, written so a reader can quote the first paragraph. Regulatory answers link to a primary source.
       </p>

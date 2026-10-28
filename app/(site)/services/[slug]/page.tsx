@@ -55,7 +55,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           { name: service.navLabel, path: `/services/${service.slug}` },
         ]}
       />
-      <h1 className="mt-4 max-w-[22ch] font-serif text-[clamp(2.2rem,1.4rem+2vw,3.8rem)] leading-tight">{service.h1}</h1>
+      <h1 className="mt-4 max-w-[28ch] font-serif text-3xl leading-tight md:text-4xl">{service.h1}</h1>
       <p data-answer className="measure mt-5 text-lg text-[var(--muted)]">
         {service.answer}
       </p>
@@ -65,7 +65,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </div>
       ) : null}
       <section className="mt-10">
-        <h2 className="font-serif text-3xl">Is this you?</h2>
+        <h2 className="font-serif text-xl md:text-2xl">Is this you?</h2>
         <ul className="mt-3 list-disc space-y-2 pl-5 text-[var(--muted)]">
           {service.problems.map((problem) => (
             <li key={problem}>{problem}</li>
@@ -74,7 +74,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         <p className="mt-4 text-sm text-[var(--muted)]">For: {service.forWhom.join(" · ")}</p>
       </section>
       <section className="mt-10">
-        <h2 className="font-serif text-3xl">What we deliver</h2>
+        <h2 className="font-serif text-xl md:text-2xl">What we deliver</h2>
         <ul className="mt-3 grid gap-3 md:grid-cols-2">
           {service.deliverables.map((item) => (
             <li key={item} className="rounded-2xl bg-[var(--mist)] px-4 py-3">
@@ -84,11 +84,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </ul>
       </section>
       <section className="mt-10">
-        <h2 className="font-serif text-3xl">How the engagement runs</h2>
+        <h2 className="font-serif text-xl md:text-2xl">How the engagement runs</h2>
         <ol className="mt-4 grid gap-4 md:grid-cols-4">
           {service.engagement.map((step) => (
             <li key={step.phase} className="rounded-3xl border border-[var(--line)] p-4">
-              <h3 className="font-serif text-2xl">{step.phase}</h3>
+              <h3 className="font-serif text-lg md:text-xl">{step.phase}</h3>
               <p className="mt-2 text-sm text-[var(--muted)]">{step.detail}</p>
             </li>
           ))}
@@ -96,7 +96,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       </section>
       {proofs.length ? (
         <section className="mt-10">
-          <h2 className="font-serif text-3xl">Relevant proof</h2>
+          <h2 className="font-serif text-xl md:text-2xl">Relevant proof</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5">
             {proofs.map((proof) => (
               <li key={proof}>{proof}</li>
@@ -106,7 +106,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       ) : null}
       {!service.regulatory && service.sources.length ? (
         <section className="mt-10">
-          <h2 className="font-serif text-3xl">References</h2>
+          <h2 className="font-serif text-xl md:text-2xl">References</h2>
           <ul className="mt-3 space-y-2">
             {service.sources.map((source) => (
               <li key={source.href}>
@@ -119,11 +119,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </section>
       ) : null}
       <section className="mt-10">
-        <h2 className="font-serif text-3xl">Questions on this engagement</h2>
+        <h2 className="font-serif text-xl md:text-2xl">Questions on this engagement</h2>
         <FaqAccordion items={service.faqs} />
       </section>
       <section className="mt-10">
-        <h2 className="font-serif text-3xl">Related reading</h2>
+        <h2 className="font-serif text-xl md:text-2xl">Related reading</h2>
         <ul className="mt-3 space-y-2">
           {service.relatedInsightSlugs.map((slug) => {
             const insight = insightBySlug(slug);

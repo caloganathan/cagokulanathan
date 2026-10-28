@@ -12,8 +12,8 @@ export function CtaBand({
   title?: string;
 }) {
   return (
-    <section className="rounded-3xl bg-[var(--forest)] px-6 py-10 text-[#f7f5ef] md:px-10">
-      <h2 className="max-w-[20ch] font-serif text-4xl leading-tight">{title}</h2>
+    <section className="rounded-3xl bg-[var(--forest)] px-6 py-8 text-[#f7f5ef] md:px-10 md:py-10">
+      <h2 className="max-w-[26ch] font-serif text-2xl leading-tight md:text-3xl">{title}</h2>
       <p className="mt-3 max-w-[48ch] text-[#d7e6de]">
         No sales team. You speak directly to the founder-led team. An NDA is available before you share details.
       </p>

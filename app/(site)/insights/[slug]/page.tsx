@@ -65,7 +65,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
           {insight.dateLabel} · {minutes} min read · {site.founderShort}
           {insight.regulatory ? ` · Last reviewed ${site.lastReviewedRegulatory}` : ""}
         </p>
-        <h1 className="mt-2 font-serif text-5xl leading-tight">{insight.title}</h1>
+        <h1 className="mt-2 font-serif text-3xl md:text-4xl leading-tight">{insight.title}</h1>
         <p className="measure mt-4 text-lg text-[var(--muted)]">{insight.dek}</p>
         <div className="measure mt-6">
           <Body />
@@ -83,7 +83,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
       </div>
       <div className="lg:pt-16">
         <ArticleToc items={toc} />
-        <h2 className="mt-6 font-serif text-2xl">Related</h2>
+        <h2 className="mt-6 font-serif text-lg md:text-xl">Related</h2>
         <ul className="mt-2 space-y-2 text-sm">
           {related.map((item) => (
             <li key={item.slug}>

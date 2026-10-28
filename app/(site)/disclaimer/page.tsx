@@ -11,9 +11,9 @@ export const metadata = pageMetadata({
 
 export default function DisclaimerPage() {
   return (
-    <article className="measure mx-auto px-4 py-10">
+    <article className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Disclaimer", path: "/disclaimer" }]} />
-      <h1 className="mt-4 font-serif text-5xl">Disclaimer</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">Disclaimer</h1>
       <p className="mt-4 text-[var(--muted)]">
         Information on this site is general technical and regulatory guidance, not legal advice. Registration and certification decisions rest solely with the competent authorities (CIB&RC, Controller of Fertilisers / Ministry of Agriculture, CAA). Regulatory content last reviewed {site.lastReviewedRegulatory}.
       </p>

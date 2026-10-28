@@ -15,20 +15,20 @@ export default function ServicesPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Services", path: "/services" }]} />
-      <h1 className="mt-4 font-serif text-5xl">Services</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">Services</h1>
       <p className="measure mt-4 text-[var(--muted)]">
         Twelve engagements, grouped the way we deliver them. Core work is a legal product and a batch that repeats. Specialist and flagship work sits behind that.
       </p>
       {tiers.map((tier) => (
         <section key={tier} className="mt-10">
-          <h2 className="font-serif text-3xl">{tierMeta[tier].label}</h2>
+          <h2 className="font-serif text-xl md:text-2xl">{tierMeta[tier].label}</h2>
           <p className="text-[var(--muted)]">{tierMeta[tier].blurb}</p>
           <div className="mt-4 grid gap-4 md:grid-cols-2">
             {services
               .filter((service) => service.tier === tier)
               .map((service) => (
                 <article key={service.slug} className="rounded-3xl bg-[var(--surface)] p-5 ring-1 ring-[var(--line)]">
-                  <h3 className="font-serif text-2xl">
+                  <h3 className="font-serif text-lg md:text-xl">
                     <Link href={`/services/${service.slug}`}>{service.h1}</Link>
                   </h3>
                   <p className="mt-2 text-[var(--muted)]">{service.problemLine}</p>

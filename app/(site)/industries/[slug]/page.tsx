@@ -36,7 +36,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
           { name: industry.title, path: `/industries/${industry.slug}` },
         ]}
       />
-      <h1 className="mt-4 font-serif text-5xl">{industry.h1}</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">{industry.h1}</h1>
       <p data-answer className="measure mt-4 text-lg text-[var(--muted)]">
         {industry.answer}
       </p>
@@ -45,7 +45,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
           <li key={point}>{point}</li>
         ))}
       </ul>
-      <h2 className="mt-8 font-serif text-3xl">Where to go next</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Where to go next</h2>
       <ul className="mt-3 space-y-2">
         {industry.serviceSlugs.map((serviceSlug) => {
           const service = serviceBySlug(serviceSlug);
