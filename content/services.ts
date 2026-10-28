@@ -38,7 +38,7 @@ export const services: Service[] = [
     metaDescription:
       "Dossier readiness for biostimulants, biopesticides and biofertilisers in India. Gap assessment, data roadmap and query support. No approval is guaranteed.",
     answer:
-      "I help Indian biological-input companies prepare biostimulant, biopesticide and biofertiliser dossiers. Provisional biostimulant registrations became invalid on 17 Jun 2025. Biopesticide strains that are already registered no longer use the Section 9(3B) provisional route. I map the data you still need and the order in which to generate it. I do not guarantee registration.",
+      "We help Indian biological-input companies prepare biostimulant, biopesticide and biofertiliser dossiers. Provisional biostimulant registrations became invalid on 17 Jun 2025. Biopesticide strains that are already registered no longer use the Section 9(3B) provisional route. We map the data you still need and the order in which to generate it. We do not guarantee registration.",
     problemLine: "The provisional file is invalid, and the next data spend is unclear.",
     outcomes: [
       "A written gap assessment against the live regime",
@@ -81,7 +81,7 @@ export const services: Service[] = [
       {
         question: "Do you guarantee CIB&RC or FCO approval?",
         answer:
-          "No. I prepare dossier readiness and a data strategy so you can reduce rework. The decision sits with CIB&RC, the Controller of Fertilisers, or the Coastal Aquaculture Authority, depending on the product.",
+          "No. We prepare dossier readiness and a data strategy so you can reduce rework. The decision sits with CIB&RC, the Controller of Fertilisers, or the Coastal Aquaculture Authority, depending on the product.",
       },
       {
         question: "Which regime applies to my product?",
@@ -91,17 +91,17 @@ export const services: Service[] = [
       {
         question: "What do I receive from a Regulatory Readiness Assessment?",
         answer:
-          "A written gap list, the data to generate, a sensible order, and the queries I would expect a reviewer to raise. Fees are confirmed after the diagnostic. They exclude GST, travel and third-party laboratory or trial costs.",
+          "A written gap list, the data to generate, a sensible order, and the queries we would expect a reviewer to raise. Fees are confirmed after the diagnostic. They exclude GST, travel and third-party laboratory or trial costs.",
       },
       {
         question: "Can you respond to queries already raised on a file?",
         answer:
-          "Yes. Send the query sheet and the data you submitted. I will separate what can be answered from the file you have and what needs a new study or a revised claim.",
+          "Yes. Send the query sheet and the data you submitted. We will separate what can be answered from the file you have and what needs a new study or a revised claim.",
       },
       {
         question: "How should an importer use this service?",
         answer:
-          "We check whether the overseas data can be used, what must be generated in India, and whether the strain authorisation and the label claims travel with the product. I do not assume a foreign registration is an Indian registration.",
+          "We check whether the overseas data can be used, what must be generated in India, and whether the strain authorisation and the label claims travel with the product. We do not assume a foreign registration is an Indian registration.",
       },
     ],
     relatedInsightSlugs: [
@@ -121,7 +121,7 @@ export const services: Service[] = [
     metaDescription:
       "What changes after provisional biostimulant registration ended on 17 Jun 2025, and how a Schedule VI dossier is planned. Last reviewed 27 Oct 2026.",
     answer:
-      "Biostimulants sit under the Fertiliser (Control) Order, 1985. Clause 20C and Schedule VI were introduced by S.O. 882(E) on 23 Feb 2021. Provisional registrations became invalid on 17 Jun 2025. Only products notified in Schedule VI may be manufactured, imported or sold. A dossier has to support efficacy, toxicity and chemistry. I plan that package. I do not quote product-count figures, because public sources conflict, and I do not guarantee notification.",
+      "Biostimulants sit under the Fertiliser (Control) Order, 1985. Clause 20C and Schedule VI were introduced by S.O. 882(E) on 23 Feb 2021. Provisional registrations became invalid on 17 Jun 2025. Only products notified in Schedule VI may be manufactured, imported or sold. A dossier has to support efficacy, toxicity and chemistry. We plan that package. We do not quote product-count figures, because public sources conflict, and we do not guarantee notification.",
     problemLine: "Provisional registration has lapsed. Schedule VI is now the only route.",
     outcomes: [
       "A clear yes or no on whether the current product is notified",
@@ -163,7 +163,7 @@ export const services: Service[] = [
       {
         question: "What data is needed to register a biostimulant in India?",
         answer:
-          "The public position is that bio-efficacy, toxicity and chemistry data are required before a product can be included in Schedule VI. The exact protocol is the one in the current guidelines and gazette notifications. I turn that list into a study plan for your composition and claim. I do not invent a shorter list.",
+          "The public position is that bio-efficacy, toxicity and chemistry data are required before a product can be included in Schedule VI. The exact protocol is the one in the current guidelines and gazette notifications. We turn that list into a study plan for your composition and claim. We do not invent a shorter list.",
       },
       {
         question: "What happened on 17 Jun 2025?",
@@ -173,7 +173,7 @@ export const services: Service[] = [
       {
         question: "Will you tell me how many products are on Schedule VI?",
         answer:
-          "No. Public counts conflict, so I do not quote a number. We check the gazette notifications that apply to your composition.",
+          "No. Public counts conflict, so we do not quote a number. We check the gazette notifications that apply to your composition.",
       },
       {
         question: "Can the same dossier cover a pesticide claim?",
@@ -183,7 +183,7 @@ export const services: Service[] = [
       {
         question: "How long will notification take?",
         answer:
-          "I will not give you a fixed month count. It depends on the data you already hold, the season in which a crop trial can run, and the queries that come back. The assessment states the critical path. It is not a promise of a date.",
+          "We will not give you a fixed month count. It depends on the data you already hold, the season in which a crop trial can run, and the queries that come back. The assessment states the critical path. It is not a promise of a date.",
       },
     ],
     relatedInsightSlugs: [
@@ -202,7 +202,7 @@ export const services: Service[] = [
     metaDescription:
       "Section 9(3) versus the discontinued 9(3B) route for already-registered biopesticide strains. DNA fingerprint, analytical reports and dossier planning.",
     answer:
-      "CIB&RC discontinued Section 9(3B) provisional registration for already-registered biopesticide strains. The public notice was uploaded on 28 Apr 2020. For the same formulation of an already-registered strain, the applicant goes to Section 9(3) with a strain DNA fingerprint and an analytical report. Harmonised bio-pesticide data guidelines were published by CIB&RC on 23 May 2022. A new strain is not the same case as an already-registered strain. I plan the file. I do not guarantee a registration certificate.",
+      "CIB&RC discontinued Section 9(3B) provisional registration for already-registered biopesticide strains. The public notice was uploaded on 28 Apr 2020. For the same formulation of an already-registered strain, the applicant goes to Section 9(3) with a strain DNA fingerprint and an analytical report. Harmonised bio-pesticide data guidelines were published by CIB&RC on 23 May 2022. A new strain is not the same case as an already-registered strain. We plan the file. We do not guarantee a registration certificate.",
     problemLine: "The 9(3B) route is closed for strains that are already registered.",
     outcomes: [
       "The correct 9(3) path for your strain, not a copied checklist",
@@ -248,7 +248,7 @@ export const services: Service[] = [
       {
         question: "How long does biopesticide registration take in India?",
         answer:
-          "There is no honest single number. An already-registered strain with a clean DNA fingerprint and analytical report is a different critical path from a new strain that still needs efficacy and toxicology. Season, laboratory backlog and query cycles all move the date. I will map the path. I will not promise a month.",
+          "There is no honest single number. An already-registered strain with a clean DNA fingerprint and analytical report is a different critical path from a new strain that still needs efficacy and toxicology. Season, laboratory backlog and query cycles all move the date. We will map the path. We will not promise a month.",
       },
       {
         question: "What did the 23 May 2022 guidelines change?",
@@ -263,7 +263,7 @@ export const services: Service[] = [
       {
         question: "Can you work with our existing regulatory consultant?",
         answer:
-          "Yes. I will take the science, the strain identity and the study design. Your consultant can keep the portal filing if that is already working.",
+          "Yes. We will take the science, the strain identity and the study design. Your consultant can keep the portal filing if that is already working.",
       },
     ],
     relatedInsightSlugs: ["biopesticide-9-3-vs-9-3b", "draft-pesticides-management-bill-2025"],
@@ -279,7 +279,7 @@ export const services: Service[] = [
     metaDescription:
       "FCO quality, labelling and dossier support for biofertiliser makers, including units in Tamil Nadu. Compliance planning, not a guaranteed approval.",
     answer:
-      "Biofertilisers are regulated under the Fertiliser (Control) Order, 1985, which sets quality standards and labelling duties. I help makers and new units check the specification they claim, the quality tests behind it, and the gaps a state laboratory will actually notice. This is compliance and dossier readiness. It is not a guarantee from the Controller of Fertilisers.",
+      "Biofertilisers are regulated under the Fertiliser (Control) Order, 1985, which sets quality standards and labelling duties. We help makers and new units check the specification they claim, the quality tests behind it, and the gaps a state laboratory will actually notice. This is compliance and dossier readiness. It is not a guarantee from the Controller of Fertilisers.",
     problemLine: "The bag claims a biofertiliser standard the batch cannot show.",
     outcomes: [
       "The FCO specification matched to the organism you actually pack",
@@ -307,7 +307,7 @@ export const services: Service[] = [
       { phase: "Diagnose", detail: "Product, carrier, claimed specification and any failed report." },
       { phase: "Roadmap", detail: "Tests, sampling points and label edits." },
       { phase: "Execute", detail: "Method review, dossier text and corrective actions." },
-      { phase: "Transfer", detail: "SOPs the production chemist can run without me." },
+      { phase: "Transfer", detail: "SOPs the production chemist can run without us." },
     ],
     proofClaimIds: ["pgpr", "exp"],
     sources: [sources.agriwelfare, sources.egazette],
@@ -320,7 +320,7 @@ export const services: Service[] = [
       {
         question: "Can you help a new biofertiliser unit in Tamil Nadu?",
         answer:
-          "Yes. I am based in Coimbatore and work with units across India. The work covers the process, the QC list and the FCO specification. It does not replace your factory licence or a state department approval.",
+          "Yes. We are based in Coimbatore and work with units across India. The work covers the process, the QC list and the FCO specification. It does not replace your factory licence or a state department approval.",
       },
       {
         question: "What if the state laboratory failed our sample?",
@@ -335,7 +335,7 @@ export const services: Service[] = [
       {
         question: "Which organisms do you cover?",
         answer:
-          "Typical biofertiliser and PGPR organisms, including work I have done on 100 L PGPR production. The specification still has to match the organism named on your bag.",
+          "Typical biofertiliser and PGPR organisms, including our founder's work on 100 L PGPR production. The specification still has to match the organism named on your bag.",
       },
     ],
     relatedInsightSlugs: ["qc-lab-biologicals-plant", "trichoderma-pseudomonas-contamination"],
@@ -351,7 +351,7 @@ export const services: Service[] = [
     metaDescription:
       "On-site help for low CFU, contamination, foam, viscosity and shelf life in Trichoderma, Bacillus, Beauveria and other biologicals plants.",
     answer:
-      "I troubleshoot fermentation for Trichoderma, Pseudomonas, Bacillus, Beauveria, Metarhizium, PGPR and other biologicals. The usual failures are low CFU or spore counts, contamination, foam, viscosity, a short shelf life, and a process that worked in a flask and failed in the tank. More in-house fermentation capacity in India means more of these failures. I have resolved sporulation viscosity and foam issues in 200–1,000 L fermenters.",
+      "We troubleshoot fermentation for Trichoderma, Pseudomonas, Bacillus, Beauveria, Metarhizium, PGPR and other biologicals. The usual failures are low CFU or spore counts, contamination, foam, viscosity, a short shelf life, and a process that worked in a flask and failed in the tank. More in-house fermentation capacity in India means more of these failures. Our founder, Dr. Gokulanathan, has resolved sporulation viscosity and foam issues in 200–1,000 L fermenters.",
     problemLine: "The flask worked. The tank does not.",
     outcomes: [
       "A written plant diagnostic, not a generic SOP pack",
@@ -382,7 +382,7 @@ export const services: Service[] = [
     engagement: [
       { phase: "Diagnose", detail: "A free 30-minute call, then a one- to two-day Plant Health Check on site." },
       { phase: "Roadmap", detail: "Ranked causes and the next three batches to instrument." },
-      { phase: "Execute", detail: "I work beside your production and QA leads while the change is tried." },
+      { phase: "Execute", detail: "We work beside your production and QA leads while the change is tried." },
       { phase: "Transfer", detail: "SOPs and a short training so the night shift can hold the change." },
     ],
     proofClaimIds: ["ferm", "pgpr", "bt"],
@@ -391,7 +391,7 @@ export const services: Service[] = [
       {
         question: "Why is my Trichoderma batch contaminated?",
         answer:
-          "Common causes are a impure seed culture, a sterilisation step that does not reach the load, weak air handling, biofilm in fittings, contaminated water or carrier, and sampling that looks like contamination when the batch is clean. The Plant Health Check separates those causes. I do not name one cause from a WhatsApp photo.",
+          "Common causes are a impure seed culture, a sterilisation step that does not reach the load, weak air handling, biofilm in fittings, contaminated water or carrier, and sampling that looks like contamination when the batch is clean. The Plant Health Check separates those causes. We do not name one cause from a WhatsApp photo.",
       },
       {
         question: "How do I increase CFU in a liquid biofertiliser?",
@@ -401,22 +401,22 @@ export const services: Service[] = [
       {
         question: "How do I stop foaming in a biopesticide fermenter?",
         answer:
-          "Foam is a process signal. It often tracks viscosity, aeration rate and media composition during fungal sporulation. Antifoam can be part of the fix and can also hurt oxygen transfer or the spore. I look at the 200–1,000 L window, where I have resolved sporulation viscosity and foam, before I recommend a chemical.",
+          "Foam is a process signal. It often tracks viscosity, aeration rate and media composition during fungal sporulation. Antifoam can be part of the fix and can also hurt oxygen transfer or the spore. We look at the 200–1,000 L window, where our founder has resolved sporulation viscosity and foam, before we recommend a chemical.",
       },
       {
         question: "Should I use solid-state or submerged fermentation?",
         answer:
-          "It depends on the organism, the contamination risk you can live with, the form you must sell, and the labour you have. Solid-state can suit some fungi and a simple plant. Submerged gives you instrumentation and a cleaner scale story, and it punishes a weak SIP. I write the choice down for your organism. I do not treat one mode as universally better.",
+          "It depends on the organism, the contamination risk you can live with, the form you must sell, and the labour you have. Solid-state can suit some fungi and a simple plant. Submerged gives you instrumentation and a cleaner scale story, and it punishes a weak SIP. We write the choice down for your organism. We do not treat one mode as universally better.",
       },
       {
         question: "What is a Plant Health Check?",
         answer:
-          "One to two days on site and a written report. It is the diagnostic in front of a longer scale-up project. The fee is confirmed when I know the plant. It excludes GST, travel and third-party tests.",
+          "One to two days on site and a written report. It is the diagnostic in front of a longer scale-up project. The fee is confirmed when we know the plant. It excludes GST, travel and third-party tests.",
       },
       {
         question: "Do you stay for the trial batches?",
         answer:
-          "On a project, yes. The point of working solo is that the person who saw the fermenter writes the change and stands there when it is run.",
+          "On a project, yes. We are a small senior team, so the person who saw the fermenter writes the change and stands there when it is run. It is not handed to a junior.",
       },
     ],
     relatedInsightSlugs: [
@@ -436,7 +436,7 @@ export const services: Service[] = [
     metaDescription:
       "QC lab design, test SOPs and quality-system support for biologicals plants preparing for ISO/IEC 17025. ISO 15189 is not an agri-lab standard.",
     answer:
-      "I set up and tighten QC for biologicals plants: lab layout, the equipment list, and SOPs for CFU, purity, contaminants, moisture and shelf life. I also prepare the quality system for NABL accreditation under ISO/IEC 17025, including internal audit and help closing non-conformities. I am a certified ISO 15189 internal auditor. That is a medical-laboratory standard. I apply the auditor's discipline to agri-biologicals labs. I do not claim ISO 15189 is an agricultural accreditation.",
+      "We set up and tighten QC for biologicals plants: lab layout, the equipment list, and SOPs for CFU, purity, contaminants, moisture and shelf life. We also prepare the quality system for NABL accreditation under ISO/IEC 17025, including internal audit and help closing non-conformities. Our founder, Dr. Gokulanathan, is a certified ISO 15189 internal auditor. That is a medical-laboratory standard. We apply the auditor's discipline to agri-biologicals labs. We do not claim ISO 15189 is an agricultural accreditation.",
     problemLine: "The plant is scaling faster than the lab that is supposed to release it.",
     outcomes: [
       "A lab list matched to the tests you must release on",
@@ -465,7 +465,7 @@ export const services: Service[] = [
       { phase: "Diagnose", detail: "What you release, what you only claim, and what an assessor already wrote down." },
       { phase: "Roadmap", detail: "Documents and equipment in the order that unblocks release." },
       { phase: "Execute", detail: "Draft SOPs, run an internal audit, and sit with the people who do the test." },
-      { phase: "Transfer", detail: "Your chemist owns the system. I do not remain the quality manual." },
+      { phase: "Transfer", detail: "Your chemist owns the system. We do not remain the quality manual." },
     ],
     proofClaimIds: ["iso15189"],
     sources: [sources.pibPmb, sources.ppqs],
@@ -473,7 +473,7 @@ export const services: Service[] = [
       {
         question: "Is ISO 15189 the accreditation for an agri-biologicals lab?",
         answer:
-          "No. ISO 15189 is a medical-laboratory standard. I hold an internal-auditor certificate in it from 2020, and I use that discipline on biologicals labs. Accreditation for a testing lab that serves this industry is generally discussed under ISO/IEC 17025 and NABL. Do not print ISO 15189 on an agricultural product as if it were the product standard.",
+          "No. ISO 15189 is a medical-laboratory standard. Our founder holds an internal-auditor certificate in it from 2020, and we use that discipline on biologicals labs. Accreditation for a testing lab that serves this industry is generally discussed under ISO/IEC 17025 and NABL. Do not print ISO 15189 on an agricultural product as if it were the product standard.",
       },
       {
         question: "What QC tests should a biopesticide manufacturer run?",
@@ -488,12 +488,12 @@ export const services: Service[] = [
       {
         question: "Can you close non-conformities from an audit we already had?",
         answer:
-          "Yes, if you share the report. I will separate a document gap from a method that cannot generate the number you need.",
+          "Yes, if you share the report. We will separate a document gap from a method that cannot generate the number you need.",
       },
       {
         question: "Will you staff the lab?",
         answer:
-          "No. I design, write and audit. Your people run the bench. Training is part of the handover.",
+          "No. We design, write and audit. Your people run the bench. Training is part of the handover.",
       },
     ],
     relatedInsightSlugs: ["qc-lab-biologicals-plant", "draft-pesticides-management-bill-2025"],
@@ -509,7 +509,7 @@ export const services: Service[] = [
     metaDescription:
       "Controlled-release pheromone lures, field-longevity tests and trap-sensor protocols. South Indian coconut and plantation IPM, stated as applications.",
     answer:
-      "I design controlled-release pheromone lures and the tests around them: wax or polymer matrices, field longevity, trap-sensor calibration, deployment design and lure manufacturing scale-up. I have scaled 500 kg of wax-matrix lures for ICT smart traps, with 70% trap sensitivity and a 40% improvement in early-detection alerts across three port sites. Coconut, tea, coffee, arecanut and horticulture in South India are application areas for this work. They are not results I am claiming for those crops.",
+      "We design controlled-release pheromone lures and the tests around them: wax or polymer matrices, field longevity, trap-sensor calibration, deployment design and lure manufacturing scale-up. Our founder, Dr. Gokulanathan, has scaled 500 kg of wax-matrix lures for ICT smart traps, with 70% trap sensitivity and a 40% improvement in early-detection alerts across three port sites. Coconut, tea, coffee, arecanut and horticulture in South India are application areas for this work. They are not results we are claiming for those crops.",
     problemLine: "The trap hardware is ready. The lure does not last, or the alert is late.",
     outcomes: [
       "A matrix chosen for the release window you need",
@@ -545,7 +545,7 @@ export const services: Service[] = [
       {
         question: "How do pheromone traps for red palm weevil work?",
         answer:
-          "Food-baited and pheromone traps are used in coconut IPM to detect and mass-trap red palm weevil. The lure has to release the right semiochemical over the service interval, and the trap has to be placed and serviced. I treat coconut around Coimbatore and Pollachi as an application area. I do not transfer port-surveillance percentages onto a plantation.",
+          "Food-baited and pheromone traps are used in coconut IPM to detect and mass-trap red palm weevil. The lure has to release the right semiochemical over the service interval, and the trap has to be placed and serviced. We treat coconut around Coimbatore and Pollachi as an application area. We do not transfer port-surveillance percentages onto a plantation.",
       },
       {
         question: "How do controlled-release pheromone lures work?",
@@ -560,12 +560,12 @@ export const services: Service[] = [
       {
         question: "Can you work with an existing IoT trap?",
         answer:
-          "Yes. I write the calibration protocol between the lure and the sensor. I do not redesign your electronics unless the brief includes it.",
+          "Yes. We write the calibration protocol between the lure and the sensor. We do not redesign your electronics unless the brief includes it.",
       },
       {
         question: "Do pheromone lures need a pesticide registration?",
         answer:
-          "Many semiochemical products are examined under the insecticides framework. Whether your dispenser needs a registration depends on the active, the claim and the current CIB&RC guideline. I will check the guideline that applies. I will not tell you that a lure is exempt without reading it.",
+          "Many semiochemical products are examined under the insecticides framework. Whether your dispenser needs a registration depends on the active, the claim and the current CIB&RC guideline. We will check the guideline that applies. We will not tell you that a lure is exempt without reading it.",
       },
     ],
     relatedInsightSlugs: ["red-palm-weevil-pheromone-south-india"],
@@ -581,7 +581,7 @@ export const services: Service[] = [
     metaDescription:
       "Strain, scale-up and CAA certificate-of-compliance support for shrimp probiotics and feed additives. The Authority decides, not the consultant.",
     answer:
-      "Under Rule 18(3) of the Coastal Aquaculture Authority Rules, 2024, aquaculture inputs such as probiotics are not to be made available or used in coastal aquaculture without certification from the Authority, unless the Authority has exempted them. I help shrimp-input makers and importers with strain selection, production scale-up, the technical side of the certificate-of-compliance file, and antibiotic-free QA. I have developed and field-validated a microbial feed additive against WSSV and AHPND in L. vannamei, and it was licensed to industry. A CAA certificate is the Authority's decision.",
+      "Under Rule 18(3) of the Coastal Aquaculture Authority Rules, 2024, aquaculture inputs such as probiotics are not to be made available or used in coastal aquaculture without certification from the Authority, unless the Authority has exempted them. We help shrimp-input makers and importers with strain selection, production scale-up, the technical side of the certificate-of-compliance file, and antibiotic-free QA. Our founder, Dr. Gokulanathan, has developed and field-validated a microbial feed additive against WSSV and AHPND in L. vannamei, and it was licensed to industry. A CAA certificate is the Authority's decision.",
     problemLine: "The product is in the water before the certificate is.",
     outcomes: [
       "A strain and process story the file can defend",
@@ -606,7 +606,7 @@ export const services: Service[] = [
       { phase: "Diagnose", detail: "Product category, label, process and any application already filed." },
       { phase: "Roadmap", detail: "Gaps against Rule 18 and the Authority's current guideline." },
       { phase: "Execute", detail: "Technical documents, QA system and scale-up steps." },
-      { phase: "Transfer", detail: "Your regulatory lead files. I stay on the science." },
+      { phase: "Transfer", detail: "Your regulatory lead files. We stay on the science." },
     ],
     proofClaimIds: ["aqua"],
     sources: [sources.caaRules, sources.caa],
@@ -619,17 +619,17 @@ export const services: Service[] = [
       {
         question: "What is the application called?",
         answer:
-          "The Rules provide for a certificate of compliance. The application form published by the Authority is Form III. Check the current form and fee on caa.gov.in before you file. I support the technical documents. I do not file as if I were the applicant.",
+          "The Rules provide for a certificate of compliance. The application form published by the Authority is Form III. Check the current form and fee on caa.gov.in before you file. We support the technical documents. We do not file as if we were the applicant.",
       },
       {
         question: "Can you guarantee the certificate?",
         answer:
-          "No. The Authority grants or refuses it. My work is dossier readiness and the production system behind the label.",
+          "No. The Authority grants or refuses it. Our work is dossier readiness and the production system behind the label.",
       },
       {
         question: "What proof do you bring to this work?",
         answer:
-          "I developed and field-validated a microbial feed additive against WSSV and AHPND in L. vannamei, and licensed it to industry. Your strain still needs its own data.",
+          "Our founder, Dr. Gokulanathan, developed and field-validated a microbial feed additive against WSSV and AHPND in L. vannamei, and licensed it to industry. Your strain still needs its own data.",
       },
       {
         question: "Do you work with importers?",
@@ -650,7 +650,7 @@ export const services: Service[] = [
     metaDescription:
       "Technology, plant, IP-readiness and regulatory-status review for investors in agri-biologicals. A red-flag memo in two to three weeks.",
     answer:
-      "I review agri-biologicals companies for investors, lenders and strategic buyers. The work covers the technology and whether the IP is in a state that can be licensed, the plant and the process, and the regulatory status: is the registration still valid, who owns the data, and is the strain authorised? You receive a scale-up risk score and a red-flag memo, planned over two to three weeks. I do not value the company. I tell you whether the science and the factory support the story.",
+      "We review agri-biologicals companies for investors, lenders and strategic buyers. The work covers the technology and whether the IP is in a state that can be licensed, the plant and the process, and the regulatory status: is the registration still valid, who owns the data, and is the strain authorised? You receive a scale-up risk score and a red-flag memo, planned over two to three weeks. We do not value the company. We tell you whether the science and the factory support the story.",
     problemLine: "The deck says the registration is done. The gazette may disagree.",
     outcomes: [
       "A red-flag memo in two to three weeks",
@@ -678,7 +678,7 @@ export const services: Service[] = [
       { phase: "Diagnose", detail: "The question the investment committee actually needs answered." },
       { phase: "Roadmap", detail: "Documents and the site visit, scoped so the memo lands in two to three weeks." },
       { phase: "Execute", detail: "Interviews, a plant walk where you can arrange it, and source checks." },
-      { phase: "Transfer", detail: "The memo and a call. I do not join the board unless we agree a separate retainer." },
+      { phase: "Transfer", detail: "The memo and a call. We do not join the board unless a separate retainer is agreed." },
     ],
     proofClaimIds: ["exp", "ferm", "iso15189"],
     sources: [sources.pibBiostimulant, sources.ppqs, sources.caa],
@@ -691,7 +691,7 @@ export const services: Service[] = [
       {
         question: "Do you do legal or financial diligence?",
         answer:
-          "No. I do the technical and regulatory-status review. Your counsel reads the contracts. Your accountant reads the books.",
+          "No. We do the technical and regulatory-status review. Your counsel reads the contracts. Your accountant reads the books.",
       },
       {
         question: "How fast is the memo?",
@@ -722,7 +722,7 @@ export const services: Service[] = [
     metaDescription:
       "Target discovery, dsRNA design, expression and bioassays for crop-protection startups. India has no dedicated dsRNA spray framework yet.",
     answer:
-      "India has no dedicated regulatory framework for sprayable dsRNA products yet. I help you build the science and the evidence base now, and map the likely regulatory pathway so you are ready when it is. The work covers target-gene discovery, dsRNA and siRNA design, microbial expression, bioassay protocols, and the design of off-target and non-target risk assessment. I do not describe a foreign approval as an Indian registration, and I do not publish an efficacy percentage that has not been confirmed for disclosure.",
+      "India has no dedicated regulatory framework for sprayable dsRNA products yet. We help you build the science and the evidence base now, and map the likely regulatory pathway so you are ready when it is. The work covers target-gene discovery, dsRNA and siRNA design, microbial expression, bioassay protocols, and the design of off-target and non-target risk assessment. We do not describe a foreign approval as an Indian registration, and we do not publish an efficacy percentage that has not been confirmed for disclosure.",
     problemLine: "The construct works in a paper. The regulatory path in India does not exist yet.",
     outcomes: [
       "A target and design rationale a partner can review",
@@ -752,7 +752,7 @@ export const services: Service[] = [
       { phase: "Diagnose", detail: "Target pest, what you already sequenced, and the decision you need in the next quarter." },
       { phase: "Roadmap", detail: "Experiments in an order that creates evidence, plus the Indian regulatory gap written in plain language." },
       { phase: "Execute", detail: "Design, expression plan and bioassay protocol, with your scientists." },
-      { phase: "Transfer", detail: "Protocols your team runs. I do not remain the only person who understands the construct." },
+      { phase: "Transfer", detail: "Protocols your team runs. We do not remain the only people who understand the construct." },
     ],
     proofClaimIds: ["phd", "exp"],
     sources: [sources.ppqs, sources.pibPmb],
@@ -760,7 +760,7 @@ export const services: Service[] = [
       {
         question: "Is RNAi pest control approved in India?",
         answer:
-          "India has no dedicated regulatory framework for sprayable dsRNA products yet. Treat any product claim of an Indian RNAi registration with caution and ask which statute it was granted under. I can help you build evidence and map a likely path. I cannot obtain an approval that the framework does not yet provide.",
+          "India has no dedicated regulatory framework for sprayable dsRNA products yet. Treat any product claim of an Indian RNAi registration with caution and ask which statute it was granted under. We can help you build evidence and map a likely path. We cannot obtain an approval that the framework does not yet provide.",
       },
       {
         question: "What does the project actually produce?",
@@ -770,7 +770,7 @@ export const services: Service[] = [
       {
         question: "Will you quote a kill percentage?",
         answer:
-          "Only when the trial scale and the metric are confirmed and you have the right to publish them. Until then I will not put a percentage on this site or in a deck.",
+          "Only when the trial scale and the metric are confirmed and you have the right to publish them. Until then we will not put a percentage on this site or in a deck.",
       },
       {
         question: "Can a corporate R&D group hire this as a retainer?",
@@ -780,7 +780,7 @@ export const services: Service[] = [
       {
         question: "Do you design the off-target work as well as the construct?",
         answer:
-          "I design the assessment. The studies themselves run at a laboratory you and I agree. I coordinate. I do not pretend one bench can do every non-target species.",
+          "We design the assessment. The studies themselves run at a laboratory we agree with you. We coordinate. We do not pretend one bench can do every non-target species.",
       },
     ],
     relatedInsightSlugs: ["rnai-crop-protection-india"],
@@ -796,7 +796,7 @@ export const services: Service[] = [
     metaDescription:
       "Technical scouting, validation and licensing support for Korean and Indian agri-biotech teams, plus a local trial and registration roadmap.",
     answer:
-      "I help Korean biotech firms entering India, and Indian firms licensing Korean or other technologies. The work is technical: scouting, validation, the technical side of licensing, and a local trial and registration roadmap. Legal paperwork stays with your counsel. I have field-validated a microbial feed additive against WSSV and AHPND in L. vannamei and licensed it to industry. I do not publish an employer name or dates from the Korea years until that wording is confirmed.",
+      "We help Korean biotech firms entering India, and Indian firms licensing Korean or other technologies. The work is technical: scouting, validation, the technical side of licensing, and a local trial and registration roadmap. Legal paperwork stays with your counsel. Our founder, Dr. Gokulanathan, has field-validated a microbial feed additive against WSSV and AHPND in L. vannamei and licensed it to industry. We do not publish an employer name or dates from his Korea years until that wording is confirmed.",
     problemLine: "The technology works in one country. India still needs a trial and a legal product.",
     outcomes: [
       "A technical view of whether the technology is real",
@@ -822,7 +822,7 @@ export const services: Service[] = [
       { phase: "Diagnose", detail: "The asset, the country it came from, and the Indian claim you want to make." },
       { phase: "Roadmap", detail: "What must be repeated in India, and which regulator will see it." },
       { phase: "Execute", detail: "Validation plan and technical schedules for the licence." },
-      { phase: "Transfer", detail: "Your team and your counsel own the deal. I own the science notes." },
+      { phase: "Transfer", detail: "Your team and your counsel own the deal. We own the science notes." },
     ],
     proofClaimIds: ["aqua", "exp"],
     sources: [sources.agriwelfare, sources.ppqs, sources.caa],
@@ -830,7 +830,7 @@ export const services: Service[] = [
       {
         question: "Do you negotiate the commercial terms?",
         answer:
-          "No. I support the technical side of a licence. Price, equity and the contract are for you and your counsel.",
+          "No. We support the technical side of a licence. Price, equity and the contract are for you and your counsel.",
       },
       {
         question: "Will a Korean registration let us sell in India?",
@@ -840,7 +840,7 @@ export const services: Service[] = [
       {
         question: "Can you name the Korean agency you worked with?",
         answer:
-          "Not yet. That wording is waiting on confirmation. I will not put an agency name on the site until it is cleared.",
+          "Not yet. That wording is waiting on confirmation. We will not put an agency name on the site until it is cleared.",
       },
       {
         question: "What proof can you share today?",
@@ -866,11 +866,11 @@ export const services: Service[] = [
     metaDescription:
       "One-day QC workshops, three-day production bootcamps and SOP kits for FPOs, KVKs and Bio-input Resource Centres. Tamil delivery is available.",
     answer:
-      "I train the people who have to make and test biological inputs: FPOs, KVKs, Bio-input Resource Centres under the National Mission on Natural Farming, agricultural colleges, state departments and CSR programmes. Formats are a one-day QC workshop, a three-day production bootcamp, and SOP kits. Tamil-language delivery is available. The training teaches method. It does not confer a registration or an accreditation.",
+      "We train the people who have to make and test biological inputs: FPOs, KVKs, Bio-input Resource Centres under the National Mission on Natural Farming, agricultural colleges, state departments and CSR programmes. Formats are a one-day QC workshop, a three-day production bootcamp, and SOP kits. Tamil-language delivery is available. The training teaches method. It does not confer a registration or an accreditation.",
     problemLine: "The unit has a tank and no written method.",
     outcomes: [
       "A workshop built around your organism and your mistakes",
-      "SOP kits operators can follow after I leave",
+      "SOP kits operators can follow after we leave",
       "Tamil or English delivery",
     ],
     forWhom: [
@@ -891,7 +891,7 @@ export const services: Service[] = [
     ],
     engagement: [
       { phase: "Diagnose", detail: "Who is in the room, what they already produce, and which language they work in." },
-      { phase: "Roadmap", detail: "A one-day or three-day outline. I do not run a generic slide deck." },
+      { phase: "Roadmap", detail: "A one-day or three-day outline. We do not run a generic slide deck." },
       { phase: "Execute", detail: "The session, on your floor where that is possible." },
       { phase: "Transfer", detail: "The SOP kit stays with the centre." },
     ],
@@ -901,12 +901,12 @@ export const services: Service[] = [
       {
         question: "What is a Bio-input Resource Centre?",
         answer:
-          "Under the National Mission on Natural Farming, Bio-input Resource Centres are local units meant to produce biological inputs for farmers. I train production and QC at those centres. I do not administer the mission.",
+          "Under the National Mission on Natural Farming, Bio-input Resource Centres are local units meant to produce biological inputs for farmers. We train production and QC at those centres. We do not administer the mission.",
       },
       {
         question: "Is Tamil-language delivery actually available?",
         answer:
-          "Yes. Say so when you enquire and I will deliver in Tamil or in English.",
+          "Yes. Say so when you enquire and we will deliver in Tamil or in English.",
       },
       {
         question: "Does the workshop include a certificate of accreditation?",
