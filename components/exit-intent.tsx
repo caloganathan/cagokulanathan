@@ -20,7 +20,7 @@ export function ExitIntent() {
   if (!open) return null;
   return (
     <div className="fixed bottom-6 left-6 z-50 hidden max-w-sm rounded-3xl bg-[var(--surface)] p-5 shadow-[var(--shadow)] ring-1 ring-[var(--line)] lg:block">
-      <p className="font-serif text-2xl">Before you go</p>
+      <p className="font-serif text-lg md:text-xl">Before you go</p>
       <p className="mt-2 text-sm text-[var(--muted)]">
         The Schedule VI dossier checklist is a one-page list. It is emailed only after you consent. It is not an approval.
       </p>

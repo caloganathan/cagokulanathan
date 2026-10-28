@@ -11,27 +11,27 @@ export const metadata = pageMetadata({
 
 export default function TermsPage() {
   return (
-    <article className="measure mx-auto px-4 py-10">
+    <article className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Terms", path: "/terms" }]} />
-      <h1 className="mt-4 font-serif text-5xl">Terms</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">Terms</h1>
       <p className="mt-4 text-sm">Last reviewed: {site.lastReviewedRegulatory}. This is a draft for counsel, not a signed engagement.</p>
-      <h2 className="mt-8 font-serif text-3xl">Scope</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Scope</h2>
       <p className="mt-2 text-[var(--muted)]">
         Work starts when we agree a scope in writing. A free diagnostic call is not an engagement. We do not guarantee a registration, a certificate, a yield or a batch count.
       </p>
-      <h2 className="mt-8 font-serif text-3xl">Fees</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Fees</h2>
       <p className="mt-2 text-[var(--muted)]">
         Fees are in INR, quoted for the scope, and exclude GST, travel and third-party laboratory or trial costs. Rupee anchors are not on the site until they are confirmed.
       </p>
-      <h2 className="mt-8 font-serif text-3xl">Confidentiality</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Confidentiality</h2>
       <p className="mt-2 text-[var(--muted)]">
         An NDA is available before you share a strain, a process or a data room. Case studies stay anonymised unless you give written consent to be named.
       </p>
-      <h2 className="mt-8 font-serif text-3xl">Intellectual property</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Intellectual property</h2>
       <p className="mt-2 text-[var(--muted)]">
         You own the dossier text, SOPs and reports we write for your paid scope, once the invoice is paid. We keep our pre-existing methods. We do not take your strain.
       </p>
-      <h2 className="mt-8 font-serif text-3xl">Law</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Law</h2>
       <p className="mt-2 text-[var(--muted)]">
         The practice is in Coimbatore, Tamil Nadu, India. A final jurisdiction clause should be settled by counsel in the engagement letter.
       </p>

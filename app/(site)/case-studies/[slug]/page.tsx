@@ -26,7 +26,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
   const results = study.resultClaimIds.map((id) => claimText(id)).filter((item): item is string => Boolean(item));
   // TODO(confirm): Beauveria shelf-life percentage is not rendered
   return (
-    <article className="mx-auto max-w-3xl px-4 py-10">
+    <article className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },
@@ -37,14 +37,14 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
       <p className="mt-4 text-sm font-semibold uppercase tracking-[0.14em] text-[var(--leaf)]">
         {study.named ? "Named with written consent" : "Anonymised"}
       </p>
-      <h1 className="mt-2 font-serif text-5xl">{study.title}</h1>
-      <h2 className="mt-8 font-serif text-3xl">Context</h2>
+      <h1 className="mt-2 font-serif text-3xl md:text-4xl">{study.title}</h1>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Context</h2>
       <p className="mt-2 text-[var(--muted)]">{study.context}</p>
-      <h2 className="mt-8 font-serif text-3xl">Challenge</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Challenge</h2>
       <p className="mt-2 text-[var(--muted)]">{study.challenge}</p>
-      <h2 className="mt-8 font-serif text-3xl">What we did</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">What we did</h2>
       <p className="mt-2 text-[var(--muted)]">{study.approach}</p>
-      <h2 className="mt-8 font-serif text-3xl">Result</h2>
+      <h2 className="mt-8 font-serif text-xl md:text-2xl">Result</h2>
       {results.length ? (
         <ul className="mt-2 list-disc pl-5">
           {results.map((result) => (

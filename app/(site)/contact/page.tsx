@@ -14,11 +14,14 @@ export const metadata = pageMetadata({
 
 export default function ContactPage() {
   const prefill = "Hi JK Advisory team, I would like to talk.";
+  const place = site.address || `${site.city}, ${site.state}, India`;
+  const mapSrc = site.mapEmbedUrl || `https://www.google.com/maps?q=${encodeURIComponent(place)}&z=11&output=embed`;
+  const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place)}`;
   return (
     <div className="mx-auto grid max-w-6xl gap-10 px-4 py-10 lg:grid-cols-2">
       <div>
         <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Contact", path: "/contact" }]} />
-        <h1 className="mt-4 font-serif text-5xl">Contact</h1>
+        <h1 className="mt-4 font-serif text-3xl md:text-4xl">Contact</h1>
         <p className="mt-4 text-[var(--muted)]">
           Reply within one working day (IST). No sales team. An NDA is available before you share details.
         </p>
@@ -27,52 +30,57 @@ export default function ContactPage() {
         </div>
       </div>
       <aside className="space-y-4">
-        <div className="rounded-3xl bg-[var(--mist)] p-5">
-          <h2 className="font-serif text-3xl">WhatsApp</h2>
-          {whatsappConfigured() ? (
-            <TrackedLink
-              href={waHref(prefill || "Hi JK Advisory team, I would like to talk.", "Contact")}
-              event="whatsapp_click"
-              params={{ page: "Contact" }}
-              className="mt-3 inline-flex min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 font-semibold text-[#0e1a14] no-underline"
-            >
-              Open WhatsApp
-            </TrackedLink>
-          ) : (
-            <p className="mt-2 text-sm text-[var(--muted)]">
-              The business WhatsApp number is not published yet. Use the form. We will not invent a number.
+        {whatsappConfigured() || site.email || site.calendlyUrl ? (
+          <div className="grid gap-4">
+            {whatsappConfigured() ? (
+              <div className="rounded-3xl bg-[var(--mist)] p-5">
+                <h2 className="font-serif text-xl md:text-2xl">WhatsApp</h2>
+                <TrackedLink
+                  href={waHref(prefill, "Contact")}
+                  event="whatsapp_click"
+                  params={{ page: "Contact" }}
+                  className="mt-3 inline-flex min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 font-semibold text-[#0e1a14] no-underline"
+                >
+                  Open WhatsApp
+                </TrackedLink>
+              </div>
+            ) : null}
+            {site.email ? (
+              <div className="rounded-3xl border border-[var(--line)] p-5">
+                <h2 className="font-serif text-xl md:text-2xl">Email</h2>
+                <TrackedLink href={`mailto:${site.email}`} event="email_click" className="mt-2 inline-block text-[var(--link)]">
+                  {site.email}
+                </TrackedLink>
+              </div>
+            ) : null}
+            {site.calendlyUrl ? (
+              <div className="rounded-3xl border border-[var(--line)] p-5">
+                <h2 className="font-serif text-xl md:text-2xl">Booking</h2>
+                <iframe title="Book a diagnostic" src={site.calendlyUrl} className="mt-3 h-96 w-full rounded-2xl" loading="lazy" />
+              </div>
+            ) : null}
+          </div>
+        ) : null}
+        <div className="overflow-hidden rounded-3xl border border-[var(--line)] bg-[var(--surface)]">
+          <div className="p-5 pb-4">
+            <h2 className="font-serif text-xl md:text-2xl">Find us in Coimbatore</h2>
+            <p className="mt-1 text-sm text-[var(--muted)]">
+              Based in {site.city}, {site.state}. We work with clients across India: {site.serviceArea.filter((place) => place !== "India").join(" · ")}.
             </p>
-          )}
-        </div>
-        <div className="rounded-3xl border border-[var(--line)] p-5">
-          <h2 className="font-serif text-3xl">Email</h2>
-          {site.email ? (
-            <TrackedLink href={`mailto:${site.email}`} event="email_click" className="text-[var(--link)]">
-              {site.email}
-            </TrackedLink>
-          ) : (
-            <p className="text-sm text-[var(--muted)]">The public email is not set yet. The form is the route.</p>
-          )}
-        </div>
-        <div className="rounded-3xl border border-[var(--line)] p-5">
-          <h2 className="font-serif text-3xl">Booking</h2>
-          {site.calendlyUrl ? (
-            <iframe title="Book a diagnostic" src={site.calendlyUrl} className="mt-3 h-96 w-full rounded-2xl" loading="lazy" />
-          ) : (
-            <p className="text-sm text-[var(--muted)]">A booking link will be embedded here when it is confirmed. Until then, ask for a time in the form.</p>
-          )}
-        </div>
-        <div className="rounded-3xl bg-[var(--surface)] p-5 ring-1 ring-[var(--line)]">
-          <h2 className="font-serif text-2xl">Service area</h2>
-          <svg viewBox="0 0 200 220" className="mt-3 h-48 w-full" role="img" aria-label="Schematic of the Indian service area, centred on Coimbatore">
-            <rect width="200" height="220" rx="16" fill="var(--mist)" />
-            <path d="M100 24c28 10 48 28 52 58 6 40-10 78-30 104-18-20-40-28-58-18-22-24-30-70-16-110C62 40 78 28 100 24z" fill="var(--forest)" opacity="0.85" />
-            <circle cx="78" cy="150" r="5" fill="var(--amber)" />
-            <text x="88" y="154" fontSize="10" fill="var(--paper)">
-              Coimbatore
-            </text>
-          </svg>
-          <p className="text-sm text-[var(--muted)]">{site.serviceArea.join(" · ")}</p>
+          </div>
+          <iframe
+            title={`Google Map of ${site.city}, ${site.state}`}
+            src={mapSrc}
+            className="block h-72 w-full border-0 md:h-80"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+          <p className="p-4 text-sm">
+            <a className="font-semibold text-[var(--link)] underline underline-offset-4" href={mapLink} target="_blank" rel="noopener">
+              Open in Google Maps
+            </a>
+          </p>
         </div>
       </aside>
     </div>

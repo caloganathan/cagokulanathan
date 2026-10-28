@@ -12,9 +12,9 @@ export const metadata = pageMetadata({
 
 export default function CoimbatorePage() {
   return (
-    <article className="mx-auto max-w-3xl px-4 py-10">
+    <article className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Coimbatore", path: "/coimbatore" }]} />
-      <h1 className="mt-4 font-serif text-5xl">Agri-biotech consultant in Coimbatore</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">Agri-biotech consultant in Coimbatore</h1>
       <p data-answer className="mt-4 text-lg text-[var(--muted)]">
         We are based in Coimbatore, Tamil Nadu, close to Tamil Nadu Agricultural University, the Pollachi coconut belt, and the plantation country of the Nilgiris and Valparai. Kerala and Karnataka are a short reach. The practice serves clients across India, not only the district.
       </p>

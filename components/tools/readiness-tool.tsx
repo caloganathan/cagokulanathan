@@ -72,7 +72,7 @@ export function ReadinessTool() {
       <button className="min-h-11 rounded-full bg-[var(--forest)] px-4 font-semibold text-white">Score the file</button>
       {result ? (
         <div className="rounded-3xl bg-[var(--mist)] p-5">
-          <p className="font-serif text-3xl">{result.score}/100</p>
+          <p className="font-serif text-xl md:text-2xl">{result.score}/100</p>
           <p className="text-sm text-[var(--muted)]">A score is a gap list. It is not a probability of approval.</p>
           {result.gaps.length ? (
             <ul className="mt-3 list-disc space-y-2 pl-5">

@@ -27,4 +27,4 @@ export const engagements = [
 ];
 
 export const feeNote =
-  "Indicative only where a format is named. Rupee anchors are not published until they are confirmed. Fees exclude GST, travel and third-party laboratory or trial costs.";
+  "Indicative only where a format is named. Fees are quoted in INR after the diagnostic. Fees exclude GST, travel and third-party laboratory or trial costs.";

@@ -11,14 +11,14 @@ export const metadata = pageMetadata({
 
 export default function ReadinessPage() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
+    <div className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },
           { name: "Regulatory Readiness Check", path: "/tools/regulatory-readiness-check" },
         ]}
       />
-      <h1 className="mt-4 font-serif text-5xl">Regulatory Readiness Check</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">Regulatory Readiness Check</h1>
       <p data-answer className="mt-4 text-[var(--muted)]">
         Pick the regime and answer the questions. The score is the share you marked yes. The gaps are the rest, capped at three. It is a way to start a call. It is not a prediction of what CIB&RC, the Controller of Fertilisers or the CAA will decide.
       </p>

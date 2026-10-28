@@ -39,7 +39,7 @@ export const homeFaqs: Faq[] = [
   {
     question: "How much does a biologicals consultant cost in India?",
     answer:
-      "A 30-minute bottleneck call is free. A Plant Health Check is one to two days on site. A Regulatory Readiness Assessment is a written gap analysis and data roadmap. Projects and monthly retainers are quoted after the diagnostic. We do not publish a rupee figure until it is confirmed. Fees exclude GST, travel and third-party laboratory or trial costs.",
+      "A 30-minute bottleneck call is free. A Plant Health Check is one to two days on site. A Regulatory Readiness Assessment is a written gap analysis and data roadmap. Projects and monthly retainers are quoted after the diagnostic. Fees are quoted in INR once the scope is clear. Fees exclude GST, travel and third-party laboratory or trial costs.",
   },
   {
     question: "Who does the work?",

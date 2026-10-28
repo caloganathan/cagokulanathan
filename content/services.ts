@@ -840,7 +840,7 @@ export const services: Service[] = [
       {
         question: "Can you name the Korean agency you worked with?",
         answer:
-          "Not yet. That wording is waiting on confirmation. We will not put an agency name on the site until it is cleared.",
+          "Client and agency names stay confidential unless they have agreed to be named. An NDA is available before you share details.",
       },
       {
         question: "What proof can you share today?",

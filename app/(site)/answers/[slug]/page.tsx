@@ -31,7 +31,7 @@ export default async function AnswerPage({ params }: { params: Promise<{ slug: s
   if (!answer) notFound();
   const more = answers.filter((item) => item.slug !== slug).slice(0, 3);
   return (
-    <article className="mx-auto max-w-3xl px-4 py-10">
+    <article className="mx-auto max-w-6xl px-4 py-10 [&>*]:max-w-3xl">
       <JsonLd data={faqSchema([{ question: answer.question, answer: answer.lead }])} />
       <JsonLd
         data={articleSchema({
@@ -51,7 +51,7 @@ export default async function AnswerPage({ params }: { params: Promise<{ slug: s
       <p className="mt-4 text-sm text-[var(--muted)]">
         {site.founderShort} · Last reviewed {site.lastReviewedRegulatory}
       </p>
-      <h1 className="mt-2 font-serif text-4xl leading-tight">{answer.question}</h1>
+      <h1 className="mt-2 font-serif text-2xl md:text-3xl leading-tight">{answer.question}</h1>
       <p data-answer className="mt-4 text-lg text-[var(--muted)]">
         {answer.lead}
       </p>
@@ -75,7 +75,7 @@ export default async function AnswerPage({ params }: { params: Promise<{ slug: s
           ))}
         </ul>
       ) : null}
-      <h2 className="mt-8 font-serif text-2xl">More answers</h2>
+      <h2 className="mt-8 font-serif text-lg md:text-xl">More answers</h2>
       <ul className="mt-2 space-y-2">
         {more.map((item) => (
           <li key={item.slug}>

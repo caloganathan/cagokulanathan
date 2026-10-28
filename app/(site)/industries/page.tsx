@@ -14,14 +14,14 @@ export default function IndustriesPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Industries", path: "/industries" }]} />
-      <h1 className="mt-4 font-serif text-5xl">Industries</h1>
+      <h1 className="mt-4 font-serif text-3xl md:text-4xl">Industries</h1>
       <p className="measure mt-4 text-[var(--muted)]">
         The same science shows up in different buying decisions. Pick the one that matches the pressure you are under.
       </p>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         {industries.map((industry) => (
           <article key={industry.slug} className="rounded-3xl bg-[var(--surface)] p-5 ring-1 ring-[var(--line)]">
-            <h2 className="font-serif text-3xl">
+            <h2 className="font-serif text-xl md:text-2xl">
               <Link href={`/industries/${industry.slug}`}>{industry.title}</Link>
             </h2>
             <p className="mt-2 text-[var(--muted)]">{industry.answer}</p>

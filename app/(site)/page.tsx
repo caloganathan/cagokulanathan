@@ -8,7 +8,6 @@ import { Reveal } from "@/components/reveal";
 import { SegmentSelector } from "@/components/segment-selector";
 import { TrackedLink } from "@/components/tracked-link";
 import { caseStudies } from "@/content/case-studies";
-import { claimText } from "@/content/claims";
 import { homeFaqs } from "@/content/faqs";
 import { insights } from "@/content/insights/registry";
 import { services, tierMeta, type Tier } from "@/content/services";
@@ -60,7 +59,6 @@ const steps = [
 ];
 
 export default function HomePage() {
-  const trust = [claimText("phd"), claimText("exp"), claimText("iso15189")].filter(Boolean);
   // TODO(confirm): pubs
   // TODO(confirm): nabl
   const tiers: Tier[] = ["A", "B", "C", "S"];
@@ -113,26 +111,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-y border-[var(--line)] bg-[var(--surface)]">
-        <ul className="mx-auto flex max-w-6xl flex-wrap gap-x-6 gap-y-2 px-4 py-4 text-sm font-semibold">
-          {trust.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-          <li>ISO 15189 is not an agri-lab accreditation</li>
-        </ul>
-      </section>
-
       <Reveal>
       <section className="mx-auto max-w-6xl px-4 py-14">
         <div className="flex flex-wrap items-end justify-between gap-3">
-          <h2 className="font-serif text-4xl">Why now</h2>
+          <h2 className="font-serif text-2xl md:text-3xl">Why now</h2>
           <p className="text-sm text-[var(--muted)]">Last reviewed {site.lastReviewedRegulatory}</p>
         </div>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {whyNow.map((card) => (
             <article key={card.title} className="rounded-3xl border border-[var(--line)] bg-[var(--surface)] p-5">
               <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[#8a5a10]">Why now</p>
-              <h3 className="mt-2 font-serif text-2xl">{card.title}</h3>
+              <h3 className="mt-2 font-serif text-lg md:text-xl">{card.title}</h3>
               <p className="mt-2 text-[var(--muted)]">{card.text}</p>
               <div className="mt-4 flex flex-wrap gap-4 text-sm">
                 <Link className="font-semibold text-[var(--link)]" href={card.href}>
@@ -149,24 +138,24 @@ export default function HomePage() {
       </Reveal>
 
       <section className="mx-auto max-w-6xl px-4 py-6">
-        <h2 className="font-serif text-4xl">I am a…</h2>
+        <h2 className="font-serif text-2xl md:text-3xl">I am a…</h2>
         <div className="mt-5">
           <SegmentSelector pageTitle="Home" />
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-14">
-        <h2 className="font-serif text-4xl">Services by tier</h2>
+        <h2 className="font-serif text-2xl md:text-3xl">Services by tier</h2>
         {tiers.map((tier) => (
           <div key={tier} className="mt-8">
-            <h3 className="font-serif text-2xl">{tierMeta[tier].label}</h3>
+            <h3 className="font-serif text-lg md:text-xl">{tierMeta[tier].label}</h3>
             <p className="text-[var(--muted)]">{tierMeta[tier].blurb}</p>
             <div className={`mt-4 grid gap-4 ${tier === "A" ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
               {services
                 .filter((service) => service.tier === tier)
                 .map((service) => (
                   <article key={service.slug} className="rounded-3xl bg-[var(--surface)] p-5 ring-1 ring-[var(--line)]">
-                    <h4 className="font-serif text-2xl">{service.navLabel}</h4>
+                    <h4 className="font-serif text-lg md:text-xl">{service.navLabel}</h4>
                     <p className="mt-2 text-[var(--muted)]">{service.problemLine}</p>
                     <ul className="mt-3 list-disc space-y-1 pl-5 text-sm">
                       {service.outcomes.map((outcome) => (
@@ -184,12 +173,12 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-6">
-        <h2 className="font-serif text-4xl">How we work</h2>
+        <h2 className="font-serif text-2xl md:text-3xl">How we work</h2>
         <ol className="mt-6 grid gap-4 md:grid-cols-4">
           {steps.map(([title, text], index) => (
             <li key={title} className="rounded-3xl bg-[var(--mist)] p-5">
-              <p className="font-serif text-3xl text-[var(--leaf)]">0{index + 1}</p>
-              <h3 className="mt-2 font-serif text-2xl">{title}</h3>
+              <p className="font-serif text-xl md:text-2xl text-[var(--leaf)]">0{index + 1}</p>
+              <h3 className="mt-2 font-serif text-lg md:text-xl">{title}</h3>
               <p className="mt-2 text-sm text-[var(--muted)]">{text}</p>
             </li>
           ))}
@@ -197,11 +186,11 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-14">
-        <h2 className="font-serif text-4xl">Proof, anonymised</h2>
+        <h2 className="font-serif text-2xl md:text-3xl">Proof, anonymised</h2>
         <div className="mt-6 grid gap-4 md:grid-cols-3">
           {caseStudies.slice(0, 3).map((study) => (
             <article key={study.slug} className="rounded-3xl border border-[var(--line)] p-5">
-              <h3 className="font-serif text-2xl">{study.title}</h3>
+              <h3 className="font-serif text-lg md:text-xl">{study.title}</h3>
               <p className="mt-2 text-sm text-[var(--muted)]">{study.challenge}</p>
               <Link className="mt-4 inline-block font-semibold text-[var(--link)]" href={`/case-studies/${study.slug}`}>
                 Read the case
@@ -212,11 +201,11 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto grid max-w-6xl gap-8 px-4 py-6 md:grid-cols-[160px_1fr]">
-        <div className="grid size-40 place-items-center rounded-full bg-[var(--forest)] font-serif text-4xl text-[#f7f5ef]" aria-hidden>
+        <div className="grid size-40 place-items-center rounded-full bg-[var(--forest)] font-serif text-2xl md:text-3xl text-[#f7f5ef]" aria-hidden>
           GA
         </div>
         <div>
-          <h2 className="font-serif text-4xl">A small team, by design</h2>
+          <h2 className="font-serif text-2xl md:text-3xl">A small team, by design</h2>
           <p className="measure mt-3 text-[var(--muted)]">
             JK Advisory was founded by Dr. Gokulanathan A., a biotechnologist trained at Bharathiar University, Ph.D. 2015. For more than eleven years, including 2022–2025 in South Korea, he has worked across research benches and fermentation plants on the organisms that become biopesticides, biofertilisers and related biological inputs. He is a certified ISO 15189 internal auditor (2020), and we apply that quality-management discipline to agri-biologicals laboratories. It is not, by itself, an agricultural accreditation. We are a tiny, founder-driven team, so the founder is on your problem and the people who scope it are the people who do the work. No juniors, no hand-offs.
           </p>
@@ -228,14 +217,14 @@ export default function HomePage() {
 
       <section className="mx-auto grid max-w-6xl gap-4 px-4 py-14 md:grid-cols-2">
         <article className="rounded-3xl bg-[var(--surface)] p-6 ring-1 ring-[var(--line)]">
-          <h2 className="font-serif text-3xl">Batch Risk Check</h2>
+          <h2 className="font-serif text-xl md:text-2xl">Batch Risk Check</h2>
           <p className="mt-2 text-[var(--muted)]">Eight questions. A low, medium or high risk, and three actions. Nothing is stored unless you send the result.</p>
           <Link className="mt-4 inline-block font-semibold text-[var(--link)]" href="/tools/batch-risk-check">
             Run it
           </Link>
         </article>
         <article className="rounded-3xl bg-[var(--surface)] p-6 ring-1 ring-[var(--line)]">
-          <h2 className="font-serif text-3xl">Regulatory Readiness Check</h2>
+          <h2 className="font-serif text-xl md:text-2xl">Regulatory Readiness Check</h2>
           <p className="mt-2 text-[var(--muted)]">A branch for biostimulants, biopesticides, biofertilisers or aquaculture inputs. A score and the top gaps. Not a probability of approval.</p>
           <Link className="mt-4 inline-block font-semibold text-[var(--link)]" href="/tools/regulatory-readiness-check">
             Run it
@@ -244,12 +233,12 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 pb-14">
-        <h2 className="font-serif text-4xl">Latest insights</h2>
+        <h2 className="font-serif text-2xl md:text-3xl">Latest insights</h2>
         <div className="mt-6 grid gap-4 md:grid-cols-3">
           {insights.slice(0, 3).map((insight) => (
             <article key={insight.slug} className="rounded-3xl border border-[var(--line)] p-5">
               <p className="text-sm text-[var(--muted)]">{insight.dateLabel}</p>
-              <h3 className="mt-2 font-serif text-2xl">{insight.title}</h3>
+              <h3 className="mt-2 font-serif text-lg md:text-xl">{insight.title}</h3>
               <p className="mt-2 text-sm text-[var(--muted)]">{insight.dek}</p>
               <Link className="mt-3 inline-block font-semibold text-[var(--link)]" href={`/insights/${insight.slug}`}>
                 Read
@@ -260,7 +249,7 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 pb-14">
-        <h2 className="font-serif text-4xl">Questions people ask first</h2>
+        <h2 className="font-serif text-2xl md:text-3xl">Questions people ask first</h2>
         <div className="mt-4">
           <FaqAccordion items={homeFaqs} />
         </div>
@@ -269,7 +258,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 pb-14">
         <div className="grid items-center gap-6 rounded-3xl bg-[var(--mist)] p-8 md:grid-cols-[1fr_auto]">
           <div>
-            <h2 className="font-serif text-4xl">Partner in agri growth</h2>
+            <h2 className="font-serif text-2xl md:text-3xl">Partner in agri growth</h2>
             <p className="measure mt-3 text-[var(--muted)]">
               Junior scientist, PhD, student, or simply in love with biological and organic agriculture? We are a tiny team that grows with the right people.
             </p>
