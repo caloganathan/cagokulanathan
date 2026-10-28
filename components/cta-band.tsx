@@ -5,7 +5,7 @@ import { waHref } from "@/lib/whatsapp";
 export function CtaBand({
   prefill,
   pageTitle,
-  title = "Tell me your bottleneck. I reply within one working day.",
+  title = "Tell us your bottleneck. We reply within one working day.",
 }: {
   prefill: string;
   pageTitle: string;
@@ -24,7 +24,7 @@ export function CtaBand({
           params={{ page: pageTitle }}
           className="inline-flex min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 py-2 font-semibold text-[#0e1a14] no-underline"
         >
-          WhatsApp me
+          WhatsApp us
         </TrackedLink>
         <ButtonLink href="/contact" variant="ghost" className="border-transparent bg-[#f7f5ef] text-[#0e1a14]">
           Write instead

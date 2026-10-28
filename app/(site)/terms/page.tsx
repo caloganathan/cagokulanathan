@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/seo/metadata";
 export const metadata = pageMetadata({
   title: "Terms of engagement",
   description:
-    "Draft terms for a solo agri-biologicals consultancy: scope, confidentiality, fees and who owns the deliverable. Have counsel review them.",
+    "Draft terms for a boutique agri-biologicals consultancy: scope, confidentiality, fees and who owns the deliverable. Have counsel review them.",
   path: "/terms",
 });
 
@@ -17,7 +17,7 @@ export default function TermsPage() {
       <p className="mt-4 text-sm">Last reviewed: {site.lastReviewedRegulatory}. This is a draft for counsel, not a signed engagement.</p>
       <h2 className="mt-8 font-serif text-3xl">Scope</h2>
       <p className="mt-2 text-[var(--muted)]">
-        Work starts when we agree a scope in writing. A free diagnostic call is not an engagement. I do not guarantee a registration, a certificate, a yield or a batch count.
+        Work starts when we agree a scope in writing. A free diagnostic call is not an engagement. We do not guarantee a registration, a certificate, a yield or a batch count.
       </p>
       <h2 className="mt-8 font-serif text-3xl">Fees</h2>
       <p className="mt-2 text-[var(--muted)]">
@@ -29,7 +29,7 @@ export default function TermsPage() {
       </p>
       <h2 className="mt-8 font-serif text-3xl">Intellectual property</h2>
       <p className="mt-2 text-[var(--muted)]">
-        You own the dossier text, SOPs and reports I write for your paid scope, once the invoice is paid. I keep my pre-existing methods. I do not take your strain.
+        You own the dossier text, SOPs and reports we write for your paid scope, once the invoice is paid. We keep our pre-existing methods. We do not take your strain.
       </p>
       <h2 className="mt-8 font-serif text-3xl">Law</h2>
       <p className="mt-2 text-[var(--muted)]">

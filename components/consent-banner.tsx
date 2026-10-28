@@ -38,7 +38,7 @@ export function ConsentBanner() {
         <div className="fixed inset-x-3 bottom-20 z-50 rounded-3xl bg-[var(--ink)] p-4 text-[var(--paper)] shadow md:bottom-6 md:left-6 md:right-auto md:max-w-md">
           <p className="font-semibold">Analytics, only if you agree</p>
           <p className="mt-1 text-sm text-[#d5e0d9]">
-            I use a privacy notice under the Digital Personal Data Protection Act, 2023. Analytics runs only after you accept. The choice is stored on this browser.
+            We use a privacy notice under the Digital Personal Data Protection Act, 2023. Analytics runs only after you accept. The choice is stored on this browser.
           </p>
           <div className="mt-3 flex gap-2">
             <button className="min-h-11 rounded-full bg-[var(--paper)] px-4 font-semibold text-[var(--ink)]" onClick={() => setConsent("granted")}>

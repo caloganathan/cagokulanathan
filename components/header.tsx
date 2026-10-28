@@ -70,7 +70,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <TrackedLink
-            href={waHref("Hi Dr. Gokul, I would like to talk about a biologicals bottleneck.", "Header")}
+            href={waHref("Hi JK Advisory team, I would like to talk about a biologicals bottleneck.", "Header")}
             event="whatsapp_click"
             params={{ page: "Header" }}
             className="hidden min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 font-semibold text-[#0e1a14] no-underline sm:inline-flex"

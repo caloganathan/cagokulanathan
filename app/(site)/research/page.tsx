@@ -19,7 +19,7 @@ export default function ResearchPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Research", path: "/research" }]} />
       <h1 className="mt-4 font-serif text-5xl">Research</h1>
       <p data-answer className="measure mt-4 text-[var(--muted)]">
-        Papers are listed only when a real DOI is on file. A count of publications is not shown until it is confirmed. The commercial question under each area is the one I use with clients.
+        Papers are listed only when a real DOI is on file. A count of publications is not shown until it is confirmed. The commercial question under each area is the one we use with clients.
       </p>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         {researchAreas.map((area) => (

@@ -86,7 +86,7 @@ export default async function AnswerPage({ params }: { params: Promise<{ slug: s
         ))}
       </ul>
       <div className="mt-10">
-        <CtaBand prefill={`Hi Dr. Gokul, my question is: ${answer.question}`} pageTitle={answer.question} />
+        <CtaBand prefill={`Hi JK Advisory team, my question is: ${answer.question}`} pageTitle={answer.question} />
       </div>
     </article>
   );

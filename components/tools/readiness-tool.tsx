@@ -85,7 +85,7 @@ export function ReadinessTool() {
           )}
           <a
             className="mt-4 inline-flex min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 font-semibold text-[#0e1a14] no-underline"
-            href={waHref(`Hi Dr. Gokul, my Regulatory Readiness Check: ${readinessSummary(regime, result)}`, "Regulatory Readiness Check")}
+            href={waHref(`Hi JK Advisory team, my Regulatory Readiness Check: ${readinessSummary(regime, result)}`, "Regulatory Readiness Check")}
             onClick={() => track("whatsapp_click", { page: "Regulatory Readiness Check" })}
           >
             Send my result on WhatsApp

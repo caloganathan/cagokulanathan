@@ -6,7 +6,7 @@ import { track } from "@/lib/analytics";
 
 const tips: Record<string, string> = {
   "/services/fermentation-scale-up-contamination-troubleshooting": "Batch trouble? Send the organism and the volume.",
-  "/services/biostimulant-biopesticide-registration-india": "Tell me which registration is stuck.",
+  "/services/biostimulant-biopesticide-registration-india": "Tell us which registration is stuck.",
   "/contact": "Prefer the form? It is on this page.",
 };
 
@@ -17,7 +17,7 @@ export function WhatsAppButton() {
 
   return (
     <a
-      href={waHref("Hi Dr. Gokul, I would like to talk about a biologicals bottleneck.", label)}
+      href={waHref("Hi JK Advisory team, I would like to talk about a biologicals bottleneck.", label)}
       onClick={() => track("whatsapp_click", { page: label })}
       className="group fixed bottom-6 right-6 z-40 hidden items-center gap-3 md:flex"
     >
