@@ -13,7 +13,7 @@ export const metadata = pageMetadata({
 });
 
 export default function ContactPage() {
-  const prefill = "Hi Dr. Gokul, I would like to talk.";
+  const prefill = "Hi JK Advisory team, I would like to talk.";
   return (
     <div className="mx-auto grid max-w-6xl gap-10 px-4 py-10 lg:grid-cols-2">
       <div>
@@ -31,7 +31,7 @@ export default function ContactPage() {
           <h2 className="font-serif text-3xl">WhatsApp</h2>
           {whatsappConfigured() ? (
             <TrackedLink
-              href={waHref(prefill || "Hi Dr. Gokul, I would like to talk.", "Contact")}
+              href={waHref(prefill || "Hi JK Advisory team, I would like to talk.", "Contact")}
               event="whatsapp_click"
               params={{ page: "Contact" }}
               className="mt-3 inline-flex min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 font-semibold text-[#0e1a14] no-underline"
@@ -40,7 +40,7 @@ export default function ContactPage() {
             </TrackedLink>
           ) : (
             <p className="mt-2 text-sm text-[var(--muted)]">
-              The business WhatsApp number is not published yet. Use the form. I will not invent a number.
+              The business WhatsApp number is not published yet. Use the form. We will not invent a number.
             </p>
           )}
         </div>

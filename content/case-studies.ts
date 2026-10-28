@@ -27,7 +27,7 @@ export const caseStudies: CaseStudy[] = [
     challenge:
       "Viscosity rose with sporulation, foam became unmanageable, and the spore count the plant needed was not reliable from batch to batch.",
     approach:
-      "I treated foam as a process signal rather than a reason to pour in antifoam. The diagnostic looked at media, aeration, agitation and the point in the cycle where viscosity changed, then the change was run with the plant team.",
+      "Our founder, Dr. Gokulanathan, treated foam as a process signal rather than a reason to pour in antifoam. The diagnostic looked at media, aeration, agitation and the point in the cycle where viscosity changed, then the change was run with the plant team.",
     resultClaimIds: ["ferm"],
     resultNote: null,
     segmentId: "plant",
@@ -64,7 +64,7 @@ export const caseStudies: CaseStudy[] = [
     challenge:
       "The dispenser had to be made in hundreds of kilograms, and the trap had to turn a release into an early-detection alert. A bench lure that could not be manufactured was not a product.",
     approach:
-      "I scaled the wax-matrix process and set the sensitivity question as a field measurement across the port sites in the programme, rather than as a claim written before the test.",
+      "Our founder, Dr. Gokulanathan, scaled the wax-matrix process and set the sensitivity question as a field measurement across the port sites in the programme, rather than as a claim written before the test.",
     resultClaimIds: ["lure", "lureSens"],
     resultNote: null,
     segmentId: "rnd",

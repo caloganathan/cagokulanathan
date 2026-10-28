@@ -3,8 +3,8 @@
 import { useSyncExternalStore } from "react";
 
 const variants = {
-  v1: "Biologicals that scale. Dossiers that clear. Science that sells.",
-  v2: "From strain to shelf — faster, cleaner, regulation-ready.",
+  v1: "Every batch you ship carries a farmer’s season. We help you get it right.",
+  v2: "Biologicals that scale. Dossiers that clear. Science that sells.",
 };
 
 export function HeroHeading() {

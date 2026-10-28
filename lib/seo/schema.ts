@@ -1,6 +1,17 @@
 import { claimText } from "@/content/claims";
 import { site, absoluteUrl } from "@/content/site";
 
+const expertise = [
+  "Agri-biologicals",
+  "Biopesticides",
+  "Biostimulants",
+  "Biofertilisers",
+  "Fermentation",
+  "Pheromones",
+  "RNAi",
+  "Aquaculture probiotics",
+];
+
 export function organizationSchema() {
   const sameAs = [site.linkedin, site.orcid, site.googleScholar, site.researchGate].filter(Boolean);
   const credential = claimText("iso15189");
@@ -22,6 +33,9 @@ export function organizationSchema() {
         name: site.brandName,
         url: absoluteUrl("/"),
         description: site.promise,
+        slogan: site.tagline,
+        knowsAbout: expertise,
+        knowsLanguage: ["en-IN", "ta-IN"],
         areaServed: site.serviceArea.map((name) => ({ "@type": "AdministrativeArea", name })),
         address: {
           "@type": "PostalAddress",
@@ -63,16 +77,7 @@ export function organizationSchema() {
             addressCountry: site.country,
           },
         },
-        knowsAbout: [
-          "Agri-biologicals",
-          "Biopesticides",
-          "Biostimulants",
-          "Biofertilisers",
-          "Fermentation",
-          "Pheromones",
-          "RNAi",
-          "Aquaculture probiotics",
-        ],
+        knowsAbout: expertise,
         ...(alumni
           ? { alumniOf: { "@type": "CollegeOrUniversity", name: "Bharathiar University" } }
           : {}),
@@ -87,6 +92,22 @@ export function organizationSchema() {
         ...(sameAs.length ? { sameAs } : {}),
       },
     ],
+  };
+}
+
+/** WebPage with speakable selectors so answer engines can lift the answer-first copy. */
+export function webPageSchema(input: { name: string; description: string; path: string; type?: "WebPage" | "AboutPage" | "ContactPage" }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": input.type ?? "WebPage",
+    "@id": `${absoluteUrl(input.path)}#webpage`,
+    url: absoluteUrl(input.path),
+    name: input.name,
+    description: input.description,
+    inLanguage: "en-IN",
+    isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+    about: { "@id": `${absoluteUrl("/")}#org` },
+    speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", "[data-answer]"] },
   };
 }
 

@@ -18,7 +18,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--paper)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
-        <Link href="/" className="no-underline" aria-label={`${site.brandName} home`}>
+        <Link href="/" className="no-underline">
           <span className="block font-serif text-2xl leading-none">{site.brandName}</span>
           <span className="block text-xs text-[var(--muted)]">Agri-biologicals · Coimbatore</span>
         </Link>
@@ -66,11 +66,12 @@ export function Header() {
           <Link href="/answers">Answers</Link>
           <Link href="/about">About</Link>
           <Link href="/case-studies">Case studies</Link>
+          <Link href="/careers" className="font-semibold text-[var(--link)]">Work with us</Link>
         </nav>
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <TrackedLink
-            href={waHref("Hi Dr. Gokul, I would like to talk about a biologicals bottleneck.", "Header")}
+            href={waHref("Hi JK Advisory team, I would like to talk about a biologicals bottleneck.", "Header")}
             event="whatsapp_click"
             params={{ page: "Header" }}
             className="hidden min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 font-semibold text-[#0e1a14] no-underline sm:inline-flex"
@@ -98,6 +99,7 @@ export function Header() {
               ["/answers", "Answers"],
               ["/about", "About"],
               ["/case-studies", "Case studies"],
+              ["/careers", "Work with us"],
               ["/tools/batch-risk-check", "Batch Risk Check"],
               ["/contact", "Contact"],
             ].map(([href, label]) => (

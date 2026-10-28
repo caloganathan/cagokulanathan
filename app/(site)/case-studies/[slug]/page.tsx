@@ -42,7 +42,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
       <p className="mt-2 text-[var(--muted)]">{study.context}</p>
       <h2 className="mt-8 font-serif text-3xl">Challenge</h2>
       <p className="mt-2 text-[var(--muted)]">{study.challenge}</p>
-      <h2 className="mt-8 font-serif text-3xl">What I did</h2>
+      <h2 className="mt-8 font-serif text-3xl">What we did</h2>
       <p className="mt-2 text-[var(--muted)]">{study.approach}</p>
       <h2 className="mt-8 font-serif text-3xl">Result</h2>
       {results.length ? (
@@ -59,7 +59,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         </Link>
       </p>
       <div className="mt-10">
-        <CtaBand prefill={segment.prefill} pageTitle={study.title} title="Similar problem? Message me." />
+        <CtaBand prefill={segment.prefill} pageTitle={study.title} title="Similar problem? Message us." />
       </div>
     </article>
   );

@@ -42,8 +42,9 @@ export const site = {
   turnstileSiteKey: process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? "",
   lastReviewedRegulatory: "27 Oct 2026",
   heroVariant: "v1" as const,
+  tagline: "Every batch carries a farmer’s season.",
   promise:
-    "From strain to shelf — I help biological input companies scale production, clear regulation, and commercialise faster.",
+    "From strain to shelf — we are a founder-led agri-biologicals team helping bio-input companies scale production, clear regulation, and commercialise faster.",
 };
 
 export const contentDate = "2026-10-27";

@@ -4,6 +4,7 @@ import { useState, useSyncExternalStore } from "react";
 import { segments } from "@/content/segments";
 import { track } from "@/lib/analytics";
 import { site } from "@/content/site";
+import { Turnstile } from "@/components/turnstile";
 
 const states = [
   "Tamil Nadu",
@@ -35,7 +36,8 @@ export function ContactForm() {
         event.preventDefault();
         setStatus("sending");
         const form = new FormData(event.currentTarget);
-        const payload = Object.fromEntries(form.entries());
+        const payload: Record<string, FormDataEntryValue> = Object.fromEntries(form.entries());
+        payload.turnstileToken = String(payload["cf-turnstile-response"] ?? "");
         const response = await fetch("/api/contact", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -100,8 +102,7 @@ export function ContactForm() {
         The bottleneck
         <textarea required name="problem" rows={5} value={problemValue} onChange={(event) => setProblem(event.target.value)} className="rounded-xl border border-[var(--line)] bg-[var(--paper)] px-3 py-2" />
       </label>
-      {site.turnstileSiteKey ? <div className="cf-turnstile" data-sitekey={site.turnstileSiteKey} /> : null}
-      <input type="hidden" name="turnstileToken" value="" />
+      <Turnstile siteKey={site.turnstileSiteKey} />
       <label className="flex items-start gap-3 text-sm">
         <input required type="checkbox" name="consent" className="mt-1 size-4" />
         <span>

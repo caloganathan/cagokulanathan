@@ -2,7 +2,7 @@ import Link from "next/link";
 import { CtaBand } from "@/components/cta-band";
 import { FaqAccordion } from "@/components/ui/accordion";
 import { HeroHeading } from "@/components/hero-heading";
-import { HeroVisual } from "@/components/hero-visual";
+import { HeroCarousel } from "@/components/hero-carousel";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Reveal } from "@/components/reveal";
 import { SegmentSelector } from "@/components/segment-selector";
@@ -15,13 +15,13 @@ import { services, tierMeta, type Tier } from "@/content/services";
 import { site } from "@/content/site";
 import { sources } from "@/content/sources";
 import { pageMetadata } from "@/lib/seo/metadata";
-import { faqSchema } from "@/lib/seo/schema";
+import { faqSchema, webPageSchema } from "@/lib/seo/schema";
 import { waHref } from "@/lib/whatsapp";
 
 export const metadata = pageMetadata({
-  title: "Agri-biologicals consultant in India",
+  title: "Agri-biologicals consultants in India",
   description:
-    "Dr. Gokulanathan helps biological input companies fix fermentation, prepare dossiers and commercialise. Based in Coimbatore, working across India.",
+    "A founder-led agri-biologicals team in Coimbatore. We help bio-input companies fix fermentation, clear registration and commercialise.",
   path: "/",
 });
 
@@ -55,37 +55,47 @@ const whyNow = [
 const steps = [
   ["Diagnose", "A free 30-minute call. If the floor is the problem, a Plant Health Check is one to two days on site."],
   ["Roadmap", "A written data plan or a ranked list of process causes. Due-diligence memos are planned over two to three weeks."],
-  ["Execute alongside your team", "Protocols, dossier text, or the next instrumented batches. I do the work I scoped."],
-  ["Transfer and train", "SOPs and operator training, in English or Tamil, so the change survives after I leave."],
+  ["Execute alongside your team", "Protocols, dossier text, or the next instrumented batches. We do the work we scoped."],
+  ["Transfer and train", "SOPs and operator training, in English or Tamil, so the change survives after we leave."],
 ];
 
 export default function HomePage() {
   const trust = [claimText("phd"), claimText("exp"), claimText("iso15189")].filter(Boolean);
   // TODO(confirm): pubs
   // TODO(confirm): nabl
-  // TODO(confirm): korea
   const tiers: Tier[] = ["A", "B", "C", "S"];
 
   return (
     <div>
       <JsonLd data={faqSchema(homeFaqs)} />
-      <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 md:grid-cols-[1.2fr_0.8fr] md:py-20">
-        <div>
+      <JsonLd
+        data={webPageSchema({
+          name: "JK Advisory — boutique agri-biologicals consultancy in India",
+          description: site.promise,
+          path: "/",
+        })}
+      />
+      <section className="mx-auto max-w-6xl px-4 pb-12 pt-6 md:pb-16">
+        <HeroCarousel />
+        <div className="mt-8 max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--leaf)]">
-            Agri-Biologicals Consultant · Coimbatore · Pan-India
+            Boutique Agri-Biologicals Consultancy · Coimbatore · <span className="whitespace-nowrap">Pan-India</span>
           </p>
           <HeroHeading />
-          <p className="measure mt-5 text-[var(--muted)]">
-            I&apos;m Dr. Gokulanathan, a biotechnologist with 11+ years across fermentation plants, research labs and regulators in India and Korea. I help biopesticide, biostimulant and biofertiliser companies fix production, clear registration and commercialise next-generation crop protection.
+          <p className="measure mt-5 text-lg">
+            A grower opens a pack of biologicals and trusts it with a whole season. We make sure that trust is earned — long before the product reaches the field.
+          </p>
+          <p data-answer className="measure mt-4 text-[var(--muted)]">
+            JK Advisory is a tiny, founder-led team of agri-biologicals specialists in Coimbatore, led by Dr. Gokulanathan A., a biotechnologist with 11+ years across fermentation plants, research labs and regulators in India and South Korea. We help biopesticide, biostimulant and biofertiliser companies fix production, clear registration in India and commercialise next-generation crop protection.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <TrackedLink
-              href={waHref("Hi Dr. Gokul, I would like a diagnostic on a biologicals bottleneck.", "Home")}
+              href={waHref("Hi JK Advisory team, I would like a diagnostic on a biologicals bottleneck.", "Home")}
               event="whatsapp_click"
               params={{ page: "Home" }}
               className="inline-flex min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 font-semibold text-[#0e1a14] no-underline"
             >
-              WhatsApp me
+              WhatsApp us
             </TrackedLink>
             <TrackedLink
               href={site.calendlyUrl || "/contact"}
@@ -99,9 +109,8 @@ export default function HomePage() {
               Email instead
             </TrackedLink>
           </div>
-          <p className="mt-4 text-sm text-[var(--muted)]">No sales team. You speak directly to the scientist.</p>
+          <p className="mt-4 text-sm text-[var(--muted)]">No sales team. You speak directly to the scientists who do the work.</p>
         </div>
-        <HeroVisual />
       </section>
 
       <section className="border-y border-[var(--line)] bg-[var(--surface)]">
@@ -175,7 +184,7 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-6">
-        <h2 className="font-serif text-4xl">How I work</h2>
+        <h2 className="font-serif text-4xl">How we work</h2>
         <ol className="mt-6 grid gap-4 md:grid-cols-4">
           {steps.map(([title, text], index) => (
             <li key={title} className="rounded-3xl bg-[var(--mist)] p-5">
@@ -207,9 +216,9 @@ export default function HomePage() {
           GA
         </div>
         <div>
-          <h2 className="font-serif text-4xl">Dr. Gokulanathan A.</h2>
+          <h2 className="font-serif text-4xl">A small team, by design</h2>
           <p className="measure mt-3 text-[var(--muted)]">
-            I am Dr. Gokulanathan A., a biotechnologist trained at Bharathiar University, Ph.D. 2015. For more than eleven years I have worked across research benches and fermentation plants on the organisms that become biopesticides, biofertilisers and related biological inputs. I am a certified ISO 15189 internal auditor (2020). I apply that quality-management discipline to agri-biologicals laboratories. It is not, by itself, an agricultural accreditation. I work solo from Coimbatore, so the person who scopes the problem is the person who does the work. Why I work solo: you get the scientist, not a junior.
+            JK Advisory was founded by Dr. Gokulanathan A., a biotechnologist trained at Bharathiar University, Ph.D. 2015. For more than eleven years, including 2022–2025 in South Korea, he has worked across research benches and fermentation plants on the organisms that become biopesticides, biofertilisers and related biological inputs. He is a certified ISO 15189 internal auditor (2020), and we apply that quality-management discipline to agri-biologicals laboratories. It is not, by itself, an agricultural accreditation. We are a tiny, founder-driven team, so the founder is on your problem and the people who scope it are the people who do the work. No juniors, no hand-offs.
           </p>
           <Link className="mt-3 inline-block font-semibold text-[var(--link)]" href="/about">
             The longer story
@@ -257,8 +266,25 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-4 pb-14">
+        <div className="grid items-center gap-6 rounded-3xl bg-[var(--mist)] p-8 md:grid-cols-[1fr_auto]">
+          <div>
+            <h2 className="font-serif text-4xl">Partner in agri growth</h2>
+            <p className="measure mt-3 text-[var(--muted)]">
+              Junior scientist, PhD, student, or simply in love with biological and organic agriculture? We are a tiny team that grows with the right people.
+            </p>
+          </div>
+          <Link
+            href="/careers"
+            className="inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--forest)] px-5 font-semibold text-white no-underline"
+          >
+            Work with us
+          </Link>
+        </div>
+      </section>
+
       <div className="mx-auto max-w-6xl px-4 pb-16">
-        <CtaBand prefill="Hi Dr. Gokul, I would like to talk about a biologicals bottleneck." pageTitle="Home" />
+        <CtaBand prefill="Hi JK Advisory team, I would like to talk about a biologicals bottleneck." pageTitle="Home" />
       </div>
     </div>
   );

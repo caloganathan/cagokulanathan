@@ -53,7 +53,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
           dateIso: insight.dateIso,
         })}
       />
-      <div>
+      <div className="min-w-0">
         <Breadcrumbs
           items={[
             { name: "Home", path: "/" },
@@ -72,13 +72,13 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
         </div>
         <aside className="measure mt-10 rounded-3xl bg-[var(--mist)] p-5">
           <p className="font-semibold">{site.founder}</p>
-          <p className="text-sm text-[var(--muted)]">{site.title}. Coimbatore. You speak to me, not to a desk.</p>
+          <p className="text-sm text-[var(--muted)]">{site.title}. Coimbatore. You speak to the scientists, not to a desk.</p>
           <Link className="text-[var(--link)]" href="/about">
             About
           </Link>
         </aside>
         <div className="mt-10">
-          <CtaBand prefill="Hi Dr. Gokul, I read an insight and want to talk about our file." pageTitle={insight.title} />
+          <CtaBand prefill="Hi JK Advisory team, I read an insight and want to talk about our file." pageTitle={insight.title} />
         </div>
       </div>
       <div className="lg:pt-16">

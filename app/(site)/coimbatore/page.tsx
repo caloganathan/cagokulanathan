@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo/metadata";
 export const metadata = pageMetadata({
   title: "Agri-biotech consultant in Coimbatore",
   description:
-    "A solo agri-biologicals consultant in Coimbatore, close to TNAU, the Pollachi coconut belt and the Nilgiris and Valparai plantations.",
+    "A boutique agri-biologicals consultancy in Coimbatore, close to TNAU, the Pollachi coconut belt and the Nilgiris and Valparai plantations.",
   path: "/coimbatore",
 });
 
@@ -16,7 +16,7 @@ export default function CoimbatorePage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Coimbatore", path: "/coimbatore" }]} />
       <h1 className="mt-4 font-serif text-5xl">Agri-biotech consultant in Coimbatore</h1>
       <p data-answer className="mt-4 text-lg text-[var(--muted)]">
-        I am based in Coimbatore, Tamil Nadu, close to Tamil Nadu Agricultural University, the Pollachi coconut belt, and the plantation country of the Nilgiris and Valparai. Kerala and Karnataka are a short reach. The practice serves clients across India, not only the district.
+        We are based in Coimbatore, Tamil Nadu, close to Tamil Nadu Agricultural University, the Pollachi coconut belt, and the plantation country of the Nilgiris and Valparai. Kerala and Karnataka are a short reach. The practice serves clients across India, not only the district.
       </p>
       <ul className="mt-6 list-disc space-y-2 pl-5">
         <li>
@@ -36,7 +36,7 @@ export default function CoimbatorePage() {
         </li>
       </ul>
       <div className="mt-10">
-        <CtaBand prefill="Hi Dr. Gokul, I am writing from Tamil Nadu about a biologicals problem." pageTitle="Coimbatore" />
+        <CtaBand prefill="Hi JK Advisory team, I am writing from Tamil Nadu about a biologicals problem." pageTitle="Coimbatore" />
       </div>
     </article>
   );

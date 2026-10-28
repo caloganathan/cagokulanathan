@@ -69,9 +69,9 @@ export async function POST(request: Request) {
     from,
     to: parsed.data.email,
     replyTo: to,
-    subject: "I have your note — Dr. Gokul",
-    text: "Thank you. I reply within one working day (IST). This is an automatic note so you know the message arrived. — Dr. Gokulanathan A.",
+    subject: "We have your note — JK Advisory",
+    text: "Thank you. We reply within one working day (IST). This is an automatic note so you know the message arrived. — The JK Advisory team",
   });
 
-  return NextResponse.json({ message: "Sent. I reply within one working day (IST)." });
+  return NextResponse.json({ message: "Sent. We reply within one working day (IST)." });
 }

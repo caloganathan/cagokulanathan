@@ -133,7 +133,7 @@ export function BatchTool() {
           </ol>
           <a
             className="mt-4 inline-flex min-h-11 items-center rounded-full bg-[var(--whatsapp)] px-4 font-semibold text-[#0e1a14] no-underline"
-            href={waHref(`Hi Dr. Gokul, my Batch Risk Check: ${batchSummary(answers, result)}`, "Batch Risk Check")}
+            href={waHref(`Hi JK Advisory team, my Batch Risk Check: ${batchSummary(answers, result)}`, "Batch Risk Check")}
             onClick={() => track("whatsapp_click", { page: "Batch Risk Check" })}
           >
             Send my result on WhatsApp

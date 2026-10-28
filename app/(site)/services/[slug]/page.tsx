@@ -74,7 +74,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         <p className="mt-4 text-sm text-[var(--muted)]">For: {service.forWhom.join(" · ")}</p>
       </section>
       <section className="mt-10">
-        <h2 className="font-serif text-3xl">What I deliver</h2>
+        <h2 className="font-serif text-3xl">What we deliver</h2>
         <ul className="mt-3 grid gap-3 md:grid-cols-2">
           {service.deliverables.map((item) => (
             <li key={item} className="rounded-2xl bg-[var(--mist)] px-4 py-3">

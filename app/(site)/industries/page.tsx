@@ -4,9 +4,9 @@ import { industries } from "@/content/industries";
 import { pageMetadata } from "@/lib/seo/metadata";
 
 export const metadata = pageMetadata({
-  title: "Industries I work with",
+  title: "Industries we work with",
   description:
-    "Biostimulants, biopesticides, biofertilisers, plantations, aquaculture, agritech startups and investors. A solo practice based in Coimbatore.",
+    "Biostimulants, biopesticides, biofertilisers, plantations, aquaculture, agritech startups and investors. A boutique practice based in Coimbatore.",
   path: "/industries",
 });
 

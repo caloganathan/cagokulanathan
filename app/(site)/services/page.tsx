@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo/metadata";
 export const metadata = pageMetadata({
   title: "Services for biologicals companies",
   description:
-    "Dossiers, fermentation rescue, QC labs, pheromones, aquaculture inputs, diligence, RNAi and training from a solo agri-biologicals practice.",
+    "Dossiers, fermentation rescue, QC labs, pheromones, aquaculture inputs, diligence, RNAi and training from a boutique agri-biologicals team.",
   path: "/services",
 });
 
@@ -17,7 +17,7 @@ export default function ServicesPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Services", path: "/services" }]} />
       <h1 className="mt-4 font-serif text-5xl">Services</h1>
       <p className="measure mt-4 text-[var(--muted)]">
-        Twelve engagements, grouped the way I sell them. Core work is a legal product and a batch that repeats. Specialist and flagship work sits behind that.
+        Twelve engagements, grouped the way we deliver them. Core work is a legal product and a batch that repeats. Specialist and flagship work sits behind that.
       </p>
       {tiers.map((tier) => (
         <section key={tier} className="mt-10">

@@ -53,7 +53,7 @@ export const insights: InsightMeta[] = [
     metaTitle: "Seven causes of Trichoderma contamination",
     metaDescription:
       "Seed purity, sterilisation, air, biofilm, water, carriers and sampling: how contamination shows up in Trichoderma and Pseudomonas plants.",
-    dek: "A contaminated batch has a physical cause. The list below is how I look for it on a plant floor.",
+    dek: "A contaminated batch has a physical cause. The list below is how we look for it on a plant floor.",
     dateLabel: "27 Oct 2026",
     dateIso: "2026-10-27",
     regulatory: false,
@@ -65,7 +65,7 @@ export const insights: InsightMeta[] = [
     metaTitle: "Foam, viscosity and low spore yield",
     metaDescription:
       "How foam and viscosity show up in entomopathogenic fungal fermentation, and what to instrument before you add more antifoam.",
-    dek: "I have resolved sporulation viscosity and foam in 200–1,000 L fermenters. The method is a diagnosis, not a dose.",
+    dek: "Our founder has resolved sporulation viscosity and foam in 200–1,000 L fermenters. The method is a diagnosis, not a dose.",
     dateLabel: "27 Oct 2026",
     dateIso: "2026-10-27",
     regulatory: false,
@@ -101,7 +101,7 @@ export const insights: InsightMeta[] = [
     metaTitle: "Pheromones in South Indian coconut IPM",
     metaDescription:
       "Where pheromone technology fits against red palm weevil and rhinoceros beetle. Application areas, not plantation yield claims.",
-    dek: "Coimbatore and Pollachi are where the question is asked. They are not a result I am publishing.",
+    dek: "Coimbatore and Pollachi are where the question is asked. They are not a result we are publishing.",
     dateLabel: "27 Oct 2026",
     dateIso: "2026-10-27",
     regulatory: false,

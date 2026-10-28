@@ -12,7 +12,7 @@ export function StickyMobileBar() {
       <div className="grid grid-cols-3 gap-2">
         <a
           className="inline-flex min-h-11 items-center justify-center gap-1 rounded-full bg-[var(--whatsapp)] text-sm font-semibold text-[#0e1a14] no-underline"
-          href={waHref("Hi Dr. Gokul, I would like to talk.", "Mobile bar")}
+          href={waHref("Hi JK Advisory team, I would like to talk.", "Mobile bar")}
           onClick={() => track("whatsapp_click", { page: "Mobile bar" })}
         >
           <MessageCircle className="size-4" aria-hidden /> WhatsApp

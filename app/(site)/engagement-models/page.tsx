@@ -4,7 +4,7 @@ import { engagements, feeNote } from "@/content/engagement";
 import { pageMetadata } from "@/lib/seo/metadata";
 
 export const metadata = pageMetadata({
-  title: "How to work with me",
+  title: "How to work with us",
   description:
     "A free 30-minute call, a plant health check, a readiness assessment, fixed projects and a retainer. Rupee anchors are quoted, not invented.",
   path: "/engagement-models",
@@ -14,9 +14,9 @@ export default function EngagementPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Engagement models", path: "/engagement-models" }]} />
-      <h1 className="mt-4 font-serif text-5xl">How to work with me</h1>
+      <h1 className="mt-4 font-serif text-5xl">How to work with us</h1>
       <p className="mt-4 text-[var(--muted)]">
-        Fees are in INR when they are quoted. I am not publishing a rupee figure until it is confirmed. You speak to me on the first call.
+        Fees are in INR when they are quoted. We are not publishing a rupee figure until it is confirmed. You speak to the founder on the first call.
       </p>
       <div className="mt-6 overflow-x-auto">
         <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
@@ -40,7 +40,7 @@ export default function EngagementPage() {
       </div>
       <p className="mt-4 text-sm text-[var(--muted)]">{feeNote}</p>
       <div className="mt-10">
-        <CtaBand prefill="Hi Dr. Gokul, I would like to book a diagnostic call." pageTitle="Engagement models" />
+        <CtaBand prefill="Hi JK Advisory team, I would like to book a diagnostic call." pageTitle="Engagement models" />
       </div>
     </div>
   );

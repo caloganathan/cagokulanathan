@@ -33,6 +33,7 @@ export function Footer() {
             <li><Link href="/research">Research</Link></li>
             <li><Link href="/glossary">Glossary</Link></li>
             <li><Link href="/coimbatore">Coimbatore</Link></li>
+            <li><Link href="/careers">Work with us</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
@@ -46,11 +47,17 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-[var(--line)] px-4 py-4 text-sm text-[var(--muted)]">
+      <div className="border-t border-[var(--line)] px-4 py-4 text-sm text-[var(--muted)] md:pb-20">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 md:flex-row md:justify-between">
           <p>Information on this site is general technical and regulatory guidance, not legal advice.</p>
           <p>Regulatory content last reviewed {site.lastReviewedRegulatory}.</p>
         </div>
+        <p className="mx-auto mt-3 max-w-6xl">
+          Designed with <span role="img" aria-label="love">❤️</span> by{" "}
+          <a href="https://straitspartners.in" target="_blank" rel="noopener" className="text-[var(--link)] underline underline-offset-4">
+            Straits Partners
+          </a>
+        </p>
       </div>
     </footer>
   );

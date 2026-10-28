@@ -16,10 +16,19 @@ const display = Fraunces({ subsets: ["latin"], variable: "--font-fraunces", disp
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
-  title: { default: "Agri-biologicals consultant in India", template: "%s" },
+  title: { default: "Agri-biologicals consultants in India", template: "%s" },
   description: site.promise,
   applicationName: site.brandName,
   authors: [{ name: site.founder, url: "/about" }],
+  keywords: [
+    "agri-biologicals consultant India",
+    "biopesticide registration India",
+    "biostimulant Schedule VI dossier",
+    "biofertiliser production consultant",
+    "fermentation troubleshooting",
+    "CAA aquaculture probiotics certification",
+    "Coimbatore agri consultancy",
+  ],
 };
 
 export const viewport: Viewport = {

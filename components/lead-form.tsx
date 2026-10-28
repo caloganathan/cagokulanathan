@@ -30,7 +30,7 @@ export function LeadForm({ magnet }: { magnet: string }) {
         anchor.click();
         URL.revokeObjectURL(url);
         track("leadmagnet_download", { tool: magnet });
-        setMessage("The checklist has downloaded. I also try to email a copy when mail delivery is configured.");
+        setMessage("The checklist has downloaded. We also try to email a copy when mail delivery is configured.");
       }}
     >
       <input className="hidden" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" />
