@@ -79,7 +79,7 @@ export default function HomePage() {
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 md:grid-cols-[1.2fr_0.8fr] md:py-20">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--leaf)]">
-            Boutique Agri-Biologicals Consultancy · Coimbatore · Pan-India
+            Boutique Agri-Biologicals Consultancy · Coimbatore · <span className="whitespace-nowrap">Pan-India</span>
           </p>
           <HeroHeading />
           <p className="measure mt-5 text-lg">

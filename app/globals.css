@@ -89,8 +89,10 @@ body > * {
   outline-offset: 3px;
 }
 
-a {
-  color: inherit;
+@layer base {
+  a {
+    color: inherit;
+  }
 }
 
 .measure {
