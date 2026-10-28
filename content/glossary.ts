@@ -153,6 +153,6 @@ export const glossary: Term[] = [
     slug: "ahpnd",
     term: "AHPND",
     definition:
-      "Acute hepatopancreatic necrosis disease, a bacterial disease of farmed shrimp. It is one of the targets of the microbial feed additive I field-validated and licensed.",
+      "Acute hepatopancreatic necrosis disease, a bacterial disease of farmed shrimp. It is one of the targets of the microbial feed additive our founder, Dr. Gokulanathan, field-validated and licensed.",
   },
 ];

@@ -19,11 +19,11 @@ export const industries: Industry[] = [
       "Support for biostimulant brands after provisional registration ended on 17 Jun 2025. Schedule VI planning from Coimbatore.",
     h1: "Biostimulant companies",
     answer:
-      "If you sell a biostimulant in India, the question since 17 Jun 2025 is simple: is the product notified in Schedule VI of the Fertiliser (Control) Order? Provisional registration is not a basis to manufacture, import or sell. I plan the efficacy, toxicity and chemistry package and the claims on the label.",
+      "If you sell a biostimulant in India, the question since 17 Jun 2025 is simple: is the product notified in Schedule VI of the Fertiliser (Control) Order? Provisional registration is not a basis to manufacture, import or sell. We plan the efficacy, toxicity and chemistry package and the claims on the label.",
     points: [
       "Provisional registrations stand invalid since 17 Jun 2025.",
       "Schedule VI, introduced with Clause 20C by S.O. 882(E) on 23 Feb 2021, is the list that matters.",
-      "I do not quote how many products are notified. Public counts conflict.",
+      "We do not quote how many products are notified. Public counts conflict.",
     ],
     serviceSlugs: [
       "biostimulant-registration-fco-schedule-vi",
@@ -39,7 +39,7 @@ export const industries: Industry[] = [
       "Section 9(3) dossier and fermentation support for microbial biopesticide makers. Already-registered strains no longer use the 9(3B) provisional route.",
     h1: "Biopesticide manufacturers",
     answer:
-      "Microbial biopesticides are filed with CIB&RC. For an already-registered strain, Section 9(3B) provisional registration was discontinued by a notice uploaded on 28 Apr 2020. The same formulation goes to Section 9(3) with a DNA fingerprint and an analytical report. New strains still need the data the current guideline asks for. Production failures are a separate problem, and I treat them as one.",
+      "Microbial biopesticides are filed with CIB&RC. For an already-registered strain, Section 9(3B) provisional registration was discontinued by a notice uploaded on 28 Apr 2020. The same formulation goes to Section 9(3) with a DNA fingerprint and an analytical report. New strains still need the data the current guideline asks for. Production failures are a separate problem, and we treat them as one.",
     points: [
       "Do not assume a 9(3B) extension is still available.",
       "Match the guideline to the strain: already registered, or new.",
@@ -59,7 +59,7 @@ export const industries: Industry[] = [
       "FCO specification, CFU and QC support for biofertiliser makers, including new units in Tamil Nadu. Compliance help without a guaranteed approval.",
     h1: "Biofertiliser makers",
     answer:
-      "A biofertiliser has to meet the Fertiliser (Control) Order specification you print on the bag. I work with units on the process, the count, and the label. A 100 L PGPR production that improved plant salinity tolerance by 20% is an example from my own work, not a figure you can put on your pack.",
+      "A biofertiliser has to meet the Fertiliser (Control) Order specification you print on the bag. We work with units on the process, the count, and the label. A 100 L PGPR production that improved plant salinity tolerance by 20% is an example from our founder's own work, not a figure you can put on your pack.",
     points: [
       "Biofertiliser rules and biostimulant Schedule VI rules are not interchangeable.",
       "State-laboratory failures need a cause, not a retest on hope.",
@@ -76,9 +76,9 @@ export const industries: Industry[] = [
       "Pheromone lure and trap design for coconut, tea, coffee, arecanut and horticulture. These are application areas, not published yield results.",
     h1: "Coconut, tea, coffee and arecanut",
     answer:
-      "The coconut belt around Coimbatore and Pollachi, the plantations of the Western Ghats, and horticultural fruit-fly problems are places where pheromone and trap design is relevant. I design lures, longevity tests and deployment. I do not present those crops as completed case results.",
+      "The coconut belt around Coimbatore and Pollachi, the plantations of the Western Ghats, and horticultural fruit-fly problems are places where pheromone and trap design is relevant. We design lures, longevity tests and deployment. We do not present those crops as completed case results.",
     points: [
-      "Red palm weevil and rhinoceros beetle are the coconut insects I am usually asked about.",
+      "Red palm weevil and rhinoceros beetle are the coconut insects we are usually asked about.",
       "A port-surveillance result stays a port result.",
       "Trap hardware and the lure have to be calibrated together.",
     ],
@@ -93,9 +93,9 @@ export const industries: Industry[] = [
       "Technical support for probiotic and feed-additive makers supplying coastal aquaculture in Tamil Nadu, Andhra Pradesh and Gujarat.",
     h1: "Shrimp and coastal aquaculture inputs",
     answer:
-      "Probiotics and other aquaculture inputs used in coastal aquaculture need a Coastal Aquaculture Authority certificate of compliance unless the Authority has exempted them. That is Rule 18(3) of the 2024 Rules. I work with makers and importers on the strain, the process and the technical file.",
+      "Probiotics and other aquaculture inputs used in coastal aquaculture need a Coastal Aquaculture Authority certificate of compliance unless the Authority has exempted them. That is Rule 18(3) of the 2024 Rules. We work with makers and importers on the strain, the process and the technical file.",
     points: [
-      "Coastal belts in Tamil Nadu, Andhra Pradesh and Gujarat are the service area I am usually called into.",
+      "Coastal belts in Tamil Nadu, Andhra Pradesh and Gujarat are the service area we are usually called into.",
       "Antibiotic-free has to be a system, not a line on the label.",
       "The Authority decides the certificate.",
     ],
@@ -110,11 +110,11 @@ export const industries: Industry[] = [
       "RNAi, fermentation and registration roadmaps for agritech startups. The Indian dsRNA framework is still a gap, and the site says so.",
     h1: "Agritech startups",
     answer:
-      "Startups usually need one of three things: a process that survives the first 100 litres, a dossier path that matches the claim, or an evidence plan for a technology India does not yet have a dedicated rule for. Sprayable dsRNA is in that third group. I will say so in the first meeting.",
+      "Startups usually need one of three things: a process that survives the first 100 litres, a dossier path that matches the claim, or an evidence plan for a technology India does not yet have a dedicated rule for. Sprayable dsRNA is in that third group. We will say so in the first meeting.",
     points: [
       "Lab-to-plant failures are more common than the pitch suggests.",
       "A foreign approval is not an Indian registration.",
-      "You speak to me directly. There is no sales team.",
+      "You speak directly to the people who do the work. There is no sales team.",
     ],
     serviceSlugs: [
       "rnai-dsrna-biopesticide-development",
@@ -130,7 +130,7 @@ export const industries: Industry[] = [
       "Technical due diligence for funds, lenders and acquirers looking at agri-biologicals companies in India. A red-flag memo in two to three weeks.",
     h1: "Investors and lenders",
     answer:
-      "The story in a biologicals deck fails in predictable places: a provisional registration described as permanent, a strain the company does not own, and a plant that has not repeated the batch. I write the red-flag memo. I do not set the valuation.",
+      "The story in a biologicals deck fails in predictable places: a provisional registration described as permanent, a strain the company does not own, and a plant that has not repeated the batch. We write the red-flag memo. We do not set the valuation.",
     points: [
       "Two to three weeks, if documents and a plant visit are available.",
       "Confidential. Targets are not turned into case studies.",
