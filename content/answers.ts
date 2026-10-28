@@ -324,7 +324,7 @@ export const answers: AnswerEntry[] = [
   {
     slug: "draft-pesticides-management-bill-2025",
     question: "What does the draft Pesticides Management Bill, 2025 change today?",
-    metaTitle: "Draft Pesticides Management Bill, 2025",
+    metaTitle: "Pesticides Bill 2025: what changes today?",
     metaDescription:
       "The January 2026 draft is a proposal, not law. It discusses digital registration and accredited laboratories.",
     lead: "Nothing in your current file changes today. The Department of Agriculture and Farmers Welfare released a revised draft Pesticides Management Bill, 2025 for consultation in January 2026. The Press Information Bureau note of 7 Jan 2026 describes digital methods and mandatory accreditation of testing laboratories, among other proposals. Comments were invited until 4 Feb 2026. The draft is not the Insecticides Act, 1968. Keep filing under the Act that is in force, and choose laboratories that can already show accreditation.",
@@ -344,7 +344,7 @@ export const answers: AnswerEntry[] = [
     lead: "A Plant Health Check is one to two days in your plant and a written report. It is how we look at low CFU, contamination, foam, viscosity, shelf life and a failed QC draw. You start with a free 30-minute call so we can tell you whether the visit is the right tool. The fee is quoted when we know the plant. It excludes GST, travel and any outside laboratory work. The report ranks causes. It does not sell you a fermenter.",
     paragraphs: [
       "Our founder has resolved sporulation viscosity and foam in 200–1,000 L fermenters. If your failure is in that family, say so on the call. If it is a registration problem, the visit is the wrong product and we will point you to the dossier work instead.",
-      "The senior people who scope the problem are the people on your floor. We do not send a junior.",
+      "The founder and the people who scope the problem are the people on your floor. We do not send a junior.",
     ],
     sources: [],
     regulatory: false,

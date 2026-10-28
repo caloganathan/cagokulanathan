@@ -19,7 +19,8 @@ export const claims: Claim[] = [
   {
     id: "korea",
     text: "Senior Technical Specialist & Researcher, South Korea (2022–2025)",
-    status: "confirm",
+    status: "approved",
+    source: "Confirmed by Loganathan A., 28 Oct 2026",
   },
   {
     id: "lure",

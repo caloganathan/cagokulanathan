@@ -15,7 +15,7 @@ export function CtaBand({
     <section className="rounded-3xl bg-[var(--forest)] px-6 py-10 text-[#f7f5ef] md:px-10">
       <h2 className="max-w-[20ch] font-serif text-4xl leading-tight">{title}</h2>
       <p className="mt-3 max-w-[48ch] text-[#d7e6de]">
-        No sales team. You speak directly to the scientist. An NDA is available before you share details.
+        No sales team. You speak directly to the founder-led team. An NDA is available before you share details.
       </p>
       <div className="mt-6 flex flex-wrap gap-3">
         <TrackedLink

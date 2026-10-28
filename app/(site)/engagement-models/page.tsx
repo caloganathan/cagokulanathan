@@ -16,7 +16,7 @@ export default function EngagementPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Engagement models", path: "/engagement-models" }]} />
       <h1 className="mt-4 font-serif text-5xl">How to work with us</h1>
       <p className="mt-4 text-[var(--muted)]">
-        Fees are in INR when they are quoted. We are not publishing a rupee figure until it is confirmed. You speak to a senior scientist on the first call.
+        Fees are in INR when they are quoted. We are not publishing a rupee figure until it is confirmed. You speak to the founder on the first call.
       </p>
       <div className="mt-6 overflow-x-auto">
         <table className="w-full min-w-[36rem] border-collapse text-left text-sm">

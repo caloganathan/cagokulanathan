@@ -13,7 +13,7 @@ const tips: Record<string, string> = {
 export function WhatsAppButton() {
   const pathname = usePathname() || "/";
   const label = pathname;
-  const tip = tips[pathname] ?? "Message the scientist directly.";
+  const tip = tips[pathname] ?? "Message the team directly.";
 
   return (
     <a

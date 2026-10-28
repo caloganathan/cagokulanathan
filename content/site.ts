@@ -44,7 +44,7 @@ export const site = {
   heroVariant: "v1" as const,
   tagline: "Every batch carries a farmer’s season.",
   promise:
-    "From strain to shelf — we are a boutique team of agri-biologicals scientists helping bio-input companies scale production, clear regulation, and commercialise faster.",
+    "From strain to shelf — we are a founder-led agri-biologicals team helping bio-input companies scale production, clear regulation, and commercialise faster.",
 };
 
 export const contentDate = "2026-10-27";

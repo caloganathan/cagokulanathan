@@ -53,7 +53,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
           dateIso: insight.dateIso,
         })}
       />
-      <div>
+      <div className="min-w-0">
         <Breadcrumbs
           items={[
             { name: "Home", path: "/" },

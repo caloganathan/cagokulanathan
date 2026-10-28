@@ -8,7 +8,7 @@ export function GET() {
   const lines = [
     `# ${site.brandName}`,
     "",
-    `${site.brandName} is a boutique agri-biologicals consultancy in ${site.city}, ${site.state}, led by ${site.founder}. ${site.promise} Registration decisions rest with CIB&RC, the Controller of Fertilisers and the Coastal Aquaculture Authority. Facts on the site are limited to an approved claims list.`,
+    `${site.brandName} is a founder-led agri-biologicals consultancy in ${site.city}, ${site.state}, led by ${site.founder}. ${site.promise} Registration decisions rest with CIB&RC, the Controller of Fertilisers and the Coastal Aquaculture Authority. Facts on the site are limited to an approved claims list.`,
     "",
     "## Key pages",
     ...[

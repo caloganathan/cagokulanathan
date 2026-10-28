@@ -416,7 +416,7 @@ export const services: Service[] = [
       {
         question: "Do you stay for the trial batches?",
         answer:
-          "On a project, yes. We are a small senior team, so the person who saw the fermenter writes the change and stands there when it is run. It is not handed to a junior.",
+          "On a project, yes. We are a tiny, founder-led team, so the person who saw the fermenter writes the change and stands there when it is run. It is not handed to a junior.",
       },
     ],
     relatedInsightSlugs: [

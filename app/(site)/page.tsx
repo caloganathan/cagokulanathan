@@ -21,7 +21,7 @@ import { waHref } from "@/lib/whatsapp";
 export const metadata = pageMetadata({
   title: "Agri-biologicals consultants in India",
   description:
-    "A boutique team of agri-biologicals scientists in Coimbatore. We help bio-input companies fix fermentation, clear registration and commercialise.",
+    "A founder-led agri-biologicals team in Coimbatore. We help bio-input companies fix fermentation, clear registration and commercialise.",
   path: "/",
 });
 
@@ -63,7 +63,6 @@ export default function HomePage() {
   const trust = [claimText("phd"), claimText("exp"), claimText("iso15189")].filter(Boolean);
   // TODO(confirm): pubs
   // TODO(confirm): nabl
-  // TODO(confirm): korea
   const tiers: Tier[] = ["A", "B", "C", "S"];
 
   return (
@@ -86,7 +85,7 @@ export default function HomePage() {
             A grower opens a pack of biologicals and trusts it with a whole season. We make sure that trust is earned — long before the product reaches the field.
           </p>
           <p data-answer className="measure mt-4 text-[var(--muted)]">
-            JK Advisory is a small, senior team of agri-biologicals scientists in Coimbatore, led by Dr. Gokulanathan A. We help biopesticide, biostimulant and biofertiliser companies fix production, clear registration in India and commercialise next-generation crop protection.
+            JK Advisory is a tiny, founder-led team of agri-biologicals specialists in Coimbatore, led by Dr. Gokulanathan A., a biotechnologist with 11+ years across fermentation plants, research labs and regulators in India and South Korea. We help biopesticide, biostimulant and biofertiliser companies fix production, clear registration in India and commercialise next-generation crop protection.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <TrackedLink
@@ -219,7 +218,7 @@ export default function HomePage() {
         <div>
           <h2 className="font-serif text-4xl">A small team, by design</h2>
           <p className="measure mt-3 text-[var(--muted)]">
-            JK Advisory was founded by Dr. Gokulanathan A., a biotechnologist trained at Bharathiar University, Ph.D. 2015. For more than eleven years he has worked across research benches and fermentation plants on the organisms that become biopesticides, biofertilisers and related biological inputs. He is a certified ISO 15189 internal auditor (2020), and we apply that quality-management discipline to agri-biologicals laboratories. It is not, by itself, an agricultural accreditation. We stay deliberately small, so the people who scope your problem are the people who do the work. You get senior scientists, not juniors.
+            JK Advisory was founded by Dr. Gokulanathan A., a biotechnologist trained at Bharathiar University, Ph.D. 2015. For more than eleven years, including 2022–2025 in South Korea, he has worked across research benches and fermentation plants on the organisms that become biopesticides, biofertilisers and related biological inputs. He is a certified ISO 15189 internal auditor (2020), and we apply that quality-management discipline to agri-biologicals laboratories. It is not, by itself, an agricultural accreditation. We are a tiny, founder-driven team, so the founder is on your problem and the people who scope it are the people who do the work. No juniors, no hand-offs.
           </p>
           <Link className="mt-3 inline-block font-semibold text-[var(--link)]" href="/about">
             The longer story

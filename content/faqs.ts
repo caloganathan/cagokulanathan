@@ -4,7 +4,7 @@ export const homeFaqs: Faq[] = [
   {
     question: "What is JK Advisory?",
     answer:
-      "JK Advisory is a boutique agri-biologicals consultancy in Coimbatore, Tamil Nadu, led by Dr. Gokulanathan A. We help biopesticide, biostimulant, biofertiliser and aquaculture-input companies across India fix production, prepare registration dossiers and commercialise. Registration decisions rest with the regulator.",
+      "JK Advisory is a founder-led agri-biologicals consultancy in Coimbatore, Tamil Nadu, run by Dr. Gokulanathan A. and a tiny team. We help biopesticide, biostimulant, biofertiliser and aquaculture-input companies across India fix production, prepare registration dossiers and commercialise. Registration decisions rest with the regulator.",
   },
   {
     question: "What happened to biostimulant provisional registrations in India in 2025?",
@@ -44,6 +44,6 @@ export const homeFaqs: Faq[] = [
   {
     question: "Who does the work?",
     answer:
-      "A small, senior team led by our founder, Dr. Gokulanathan A. We are deliberately boutique: the scientists who scope your problem are the ones who do the work. You never get handed to a sales desk or a junior assigned later. An NDA is available before you share process detail.",
+      "Our founder, Dr. Gokulanathan A., with a tiny team. We are founder-driven: the people who scope your problem are the ones who do the work. You never get handed to a sales desk or a junior assigned later. An NDA is available before you share process detail.",
   },
 ];
