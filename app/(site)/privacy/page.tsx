@@ -24,7 +24,7 @@ export default function PrivacyPage() {
       </p>
       <h2 className="mt-8 font-serif text-3xl">What we collect and why</h2>
       <p className="mt-2 text-[var(--muted)]">
-        On the contact form: name, email, company, role, segment, state, preferred channel and the problem you describe. Purpose: to reply to the enquiry. On a checklist form: name and email, to send the checklist and one follow-up. Analytics cookies run only after you accept the banner. We do not run a chat widget.
+        On the contact form: name, email, company, role, segment, state, preferred channel and the problem you describe. Purpose: to reply to the enquiry. On a checklist form: name and email, to send the checklist and one follow-up. On the careers form: name, email, optional phone, location, qualification, interests, availability, an optional profile link and your message, used only to consider your application and reply. Applicants must be 18 or older. Please do not send identity or bank numbers. Analytics cookies run only after you accept the banner. We do not run a chat widget.
       </p>
       <h2 className="mt-8 font-serif text-3xl">Consent</h2>
       <p className="mt-2 text-[var(--muted)]">

@@ -33,6 +33,7 @@ export function Footer() {
             <li><Link href="/research">Research</Link></li>
             <li><Link href="/glossary">Glossary</Link></li>
             <li><Link href="/coimbatore">Coimbatore</Link></li>
+            <li><Link href="/careers">Work with us</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>

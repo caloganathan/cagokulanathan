@@ -18,6 +18,7 @@ export function GET() {
       ["/insights", "Essays"],
       ["/about", "About"],
       ["/contact", "Contact"],
+      ["/careers", "Work with us (open applications)"],
       ["/disclaimer", "Disclaimer"],
     ].map(([path, label]) => `- [${label}](${absoluteUrl(path)})`),
     "",

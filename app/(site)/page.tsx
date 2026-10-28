@@ -266,6 +266,23 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-4 pb-14">
+        <div className="grid items-center gap-6 rounded-3xl bg-[var(--mist)] p-8 md:grid-cols-[1fr_auto]">
+          <div>
+            <h2 className="font-serif text-4xl">Partner in agri growth</h2>
+            <p className="measure mt-3 text-[var(--muted)]">
+              Junior scientist, PhD, student, or simply in love with biological and organic agriculture? We are a tiny team that grows with the right people.
+            </p>
+          </div>
+          <Link
+            href="/careers"
+            className="inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--forest)] px-5 font-semibold text-white no-underline"
+          >
+            Work with us
+          </Link>
+        </div>
+      </section>
+
       <div className="mx-auto max-w-6xl px-4 pb-16">
         <CtaBand prefill="Hi JK Advisory team, I would like to talk about a biologicals bottleneck." pageTitle="Home" />
       </div>

@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/glossary",
     "/engagement-models",
     "/contact",
+    "/careers",
     "/privacy",
     "/terms",
     "/disclaimer",

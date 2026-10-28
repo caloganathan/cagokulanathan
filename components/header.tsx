@@ -66,6 +66,7 @@ export function Header() {
           <Link href="/answers">Answers</Link>
           <Link href="/about">About</Link>
           <Link href="/case-studies">Case studies</Link>
+          <Link href="/careers" className="font-semibold text-[var(--link)]">Work with us</Link>
         </nav>
         <div className="flex items-center gap-2">
           <ThemeToggle />
@@ -98,6 +99,7 @@ export function Header() {
               ["/answers", "Answers"],
               ["/about", "About"],
               ["/case-studies", "Case studies"],
+              ["/careers", "Work with us"],
               ["/tools/batch-risk-check", "Batch Risk Check"],
               ["/contact", "Contact"],
             ].map(([href, label]) => (
