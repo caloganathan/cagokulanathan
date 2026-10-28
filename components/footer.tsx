@@ -47,11 +47,17 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-[var(--line)] px-4 py-4 text-sm text-[var(--muted)]">
+      <div className="border-t border-[var(--line)] px-4 py-4 text-sm text-[var(--muted)] md:pb-20">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 md:flex-row md:justify-between">
           <p>Information on this site is general technical and regulatory guidance, not legal advice.</p>
           <p>Regulatory content last reviewed {site.lastReviewedRegulatory}.</p>
         </div>
+        <p className="mx-auto mt-3 max-w-6xl">
+          Designed with <span role="img" aria-label="love">❤️</span> by{" "}
+          <a href="https://straitspartners.in" target="_blank" rel="noopener" className="text-[var(--link)] underline-offset-4 hover:underline">
+            Straits Partners (straitspartners.in)
+          </a>
+        </p>
       </div>
     </footer>
   );

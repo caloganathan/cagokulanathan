@@ -114,37 +114,6 @@ body > * {
   top: 0.75rem;
 }
 
-.hero-visual svg .frame {
-  opacity: 0;
-}
-
-.hero-visual.is-on svg .frame-a {
-  animation: frame-cycle 12s infinite;
-}
-
-.hero-visual.is-on svg .frame-b {
-  animation: frame-cycle 12s infinite 4s;
-}
-
-.hero-visual.is-on svg .frame-c {
-  animation: frame-cycle 12s infinite 8s;
-}
-
-.hero-visual svg .frame-a {
-  opacity: 1;
-}
-
-@keyframes frame-cycle {
-  0%,
-  22% {
-    opacity: 1;
-  }
-  33%,
-  100% {
-    opacity: 0;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -156,13 +125,5 @@ body > * {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-  }
-
-  .hero-visual svg .frame {
-    opacity: 0 !important;
-  }
-
-  .hero-visual svg .frame-a {
-    opacity: 1 !important;
   }
 }

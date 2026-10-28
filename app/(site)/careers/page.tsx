@@ -102,7 +102,7 @@ export default function CareersPage() {
               ))}
             </ol>
             <p className="mt-8 text-sm text-[#d7e6de]">
-              This page is not an offer of employment. See our <Link className="text-[#f7c948]" href="/privacy">privacy notice</Link> for how applications are handled.
+              This page is not an offer of employment. See our <Link className="text-[#f7c948] underline underline-offset-4" href="/privacy">privacy notice</Link> for how applications are handled.
             </p>
           </div>
           <div className="rounded-3xl border border-[#3f6b57] bg-[#0f3a28] p-5 md:p-8">

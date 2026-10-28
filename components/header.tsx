@@ -18,7 +18,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--paper)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
-        <Link href="/" className="no-underline" aria-label={`${site.brandName} home`}>
+        <Link href="/" className="no-underline">
           <span className="block font-serif text-2xl leading-none">{site.brandName}</span>
           <span className="block text-xs text-[var(--muted)]">Agri-biologicals · Coimbatore</span>
         </Link>

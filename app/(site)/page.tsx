@@ -2,7 +2,7 @@ import Link from "next/link";
 import { CtaBand } from "@/components/cta-band";
 import { FaqAccordion } from "@/components/ui/accordion";
 import { HeroHeading } from "@/components/hero-heading";
-import { HeroVisual } from "@/components/hero-visual";
+import { HeroCarousel } from "@/components/hero-carousel";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Reveal } from "@/components/reveal";
 import { SegmentSelector } from "@/components/segment-selector";
@@ -75,8 +75,9 @@ export default function HomePage() {
           path: "/",
         })}
       />
-      <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 md:grid-cols-[1.2fr_0.8fr] md:py-20">
-        <div>
+      <section className="mx-auto max-w-6xl px-4 pb-12 pt-6 md:pb-16">
+        <HeroCarousel />
+        <div className="mt-8 max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--leaf)]">
             Boutique Agri-Biologicals Consultancy · Coimbatore · <span className="whitespace-nowrap">Pan-India</span>
           </p>
@@ -110,7 +111,6 @@ export default function HomePage() {
           </div>
           <p className="mt-4 text-sm text-[var(--muted)]">No sales team. You speak directly to the scientists who do the work.</p>
         </div>
-        <HeroVisual />
       </section>
 
       <section className="border-y border-[var(--line)] bg-[var(--surface)]">
